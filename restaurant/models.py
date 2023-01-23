@@ -36,15 +36,15 @@ class CreateReviews(models.Model):
     creation_date = models.DateField()
 
 
-class LikeReviews(models.Models):
+class LikeReviews(models.Model):
     like_unlike = models.BooleanField()
     user = models.ForeignKey(
         User,
         on_delete=models.CASCADE,
-        related_name='like/unlike',
+        related_name='like_unlike',
     )
     review = models.ForeignKey(
         CreateReviews,
         on_delete=models.CASCADE,
-        related_name='like-unlike',
+        related_name='like_unlike',
     )
