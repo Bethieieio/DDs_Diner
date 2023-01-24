@@ -1,1 +1,1 @@
-web: gunicon DDs_Diner.wgsi
+web: gunicon DDs_Diner.wsgi
