@@ -1,1 +1,1 @@
-web: gunicon DDs_Diner.wsgi
+web: gunicorn DDs_Diner.wsgi
