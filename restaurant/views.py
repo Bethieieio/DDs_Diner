@@ -40,10 +40,10 @@ class BookingCreation(View):
         )
 
 
-class Admin(View):
+class ClientAdmin(View):
     def get(self, request):
 
         return render(
             request,
-            "admin.html",
+            "client_admin.html",
         )
