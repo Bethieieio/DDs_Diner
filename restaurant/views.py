@@ -29,3 +29,12 @@ class Reviews(View):
             request,
             "reviews.html",
         )
+
+
+class BookingCreation(View):
+    def get(self, request):
+
+        return render(
+            request,
+            "booking_creation.html",
+        )
