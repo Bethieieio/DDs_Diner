@@ -12,7 +12,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    font-family: 'Anek Gujarati', sans-serif;
+    font-family: 'pacifico', sans-serif;
     font-weight: 600;
     color: #A82428;
     font-size: 1.5em;
@@ -38,15 +38,49 @@ body {
     background-position: center;
     background-size: 100%;
     min-height: 60vh;
+    position: relative;
+
 }
 
+/* sign up button */
+#floating_button {
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+}
+
+.btn-signup {
+    background-color: #FFBE33;
+    font-size: 1.5em;
+    font-family: 'pacifico', sans-serif;
+    padding: 0.30em 1em;
+    box-shadow: 3px 3px 3px black;
+}
+
+
+/* contents */
 .container {
     background-color: #ebebeb;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1400px){
-.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    max-width: 1200px;
-}
-}
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1200px;
+    }
+    }
+
+
