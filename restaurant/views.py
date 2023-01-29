@@ -20,3 +20,12 @@ class Menu(View):
             request,
             "menu.html",
         )
+
+
+class Reviews(View):
+    def get(self, request):
+
+        return render(
+            request,
+            "reviews.html",
+        )
