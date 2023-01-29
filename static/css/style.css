@@ -27,6 +27,10 @@ body {
     border-right: 2px solid #FFBE33;
 }
 
+.bg-white {
+    background-color: #ebebeb!important;
+}
+
 
 /* Hero Image */
 #hero_image {
