@@ -11,3 +11,12 @@ class Home(View):
             request,
             "index.html",
         )
+
+
+class Menu(View):
+    def get(self, request):
+
+        return render(
+            request,
+            "menu.html",
+        )
