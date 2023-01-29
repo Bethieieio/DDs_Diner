@@ -38,3 +38,12 @@ class BookingCreation(View):
             request,
             "booking_creation.html",
         )
+
+
+class Admin(View):
+    def get(self, request):
+
+        return render(
+            request,
+            "admin.html",
+        )

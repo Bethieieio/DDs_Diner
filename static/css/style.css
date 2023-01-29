@@ -11,6 +11,23 @@ body {
     margin: auto;
 }
 
+.navbar-light .navbar-nav .nav-link {
+    font-family: 'Anek Gujarati', sans-serif;
+    font-weight: 600;
+    color: #A82428;
+    font-size: 1.5em;
+    padding: 0.25em 1em;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #FFBE33;
+}
+
+.nav-item:not(:last-child) {
+    border-right: 2px solid #FFBE33;
+}
+
+
 /* Hero Image */
 #hero_image {
     background-image: url('/static/css/images/hero_image.jpg');
