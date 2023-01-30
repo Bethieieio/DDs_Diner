@@ -60,8 +60,13 @@ body {
 
 
 /* contents */
-.container {
+.white-background {
     background-color: #ebebeb;
+}
+h2 {
+    font-family: 'pacifico', sans-serif; 
+    color: #FFBE33;
+    font-size: 3em;
 }
 
 
