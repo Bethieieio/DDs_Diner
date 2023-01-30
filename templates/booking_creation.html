@@ -1,41 +1,16 @@
 {% extends "base.html" %}
+{% load crispy_forms_tags %}
 
 {% block content %}
 <div class="container my-3">
     <h2>Book a Table</h2>
 </div>
 <div class="container white-background ">
-            <form>
-                <div class="mb-3">
-                    <label for="" class="form-label">Date</label>
-                    <input type="date" class="form-control" id="" aria-describedby="">
-                </div>
-                <div class="mb-3">
-                    <label for="" class="form-label">Time</label>
-                    <input type="time" step="18" class="form-control" id="" aria-describedby="">
-                </div>
-                <select class="form-select" aria-label="">
-                    <option selected>How many people?</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="3">4</option>
-                    <option value="3">5</option>
-                    <option value="3">6</option>
-                    <option value="3">7</option>
-                    <option value="3">8</option>
-                </select>
-                <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                    <label class="form-check-label" for="flexCheckDefault">
-                    Any Allergies?
-                    </label>
-                    <div>
-                        <!-- switch and drop down for preorders in this div -->
-                    </div>
-                <button class="btn btn-signup ">Book Table</button>
-            </form>
-            
+    <form method="post" action="{% url 'book_a_table' %}">
+        {% csrf_token %}
+        {{ booking_form | crispy }}
+        <button class="btn btn-signup ">Book Table</button>
+    </form>
 </div>
 {%endblock%}
 
