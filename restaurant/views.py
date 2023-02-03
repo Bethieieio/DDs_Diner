@@ -1,6 +1,8 @@
 from django.shortcuts import render
-from django.views import generic, View
+from django.views import View
 from .forms import BookingForm, ClientSignUpForm
+from django.contrib.auth.decorators import login_required
+from django.utils.decorators import method_decorator
 
 # Create your views here.
 
@@ -36,6 +38,7 @@ class Reviews(View):
         )
 
 
+@method_decorator(login_required, name='dispatch')
 class BookingCreation(View):
     def get(self, request):
 
@@ -50,8 +53,7 @@ class BookingCreation(View):
     def post(self, request):
         booking_form = BookingForm(data=request.POST)
         if booking_form.is_valid():
-            # TODO ADD AUTHENTICATED USER TO BOOKING MODEL using @login_required
-            # booking.user = request.user
+            booking.user = request.user
             booking = booking_form.save(commit=False)
             booking.save()
         else:
