@@ -53,14 +53,13 @@ class BookingCreation(View):
     def post(self, request):
         booking_form = BookingForm(data=request.POST)
         if booking_form.is_valid():
-            booking.user = request.user
             booking = booking_form.save(commit=False)
+            booking.user = request.user
             booking.save()
+            # TODO redirect to booking list
         else:
             booking_form = BookingForm()
 
-        print('booking form')
-        print(booking_form)
         return render(
             request,
             "booking_creation.html",
