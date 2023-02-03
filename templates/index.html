@@ -21,7 +21,7 @@
     </div>
 </div>
 
-{% if not user.is_authenticated%}
+{% if not user.is_authenticated %}
     <div class="container white-background py-5">
         <form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
             {% csrf_token %}
