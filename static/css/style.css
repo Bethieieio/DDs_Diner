@@ -69,6 +69,19 @@ h2 {
     font-size: 3em;
 }
 
+/* Book a Table */
+
+#book-table-form {
+    position: relative;
+}
+
+#book-table-button {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 1em;
+}
+
 
 
 

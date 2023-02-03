@@ -2,15 +2,17 @@
 {% load crispy_forms_tags %}
 
 {% block content %}
-<div class="container my-3">
-    <h2>Book a Table</h2>
+
+<div class="container my-5">
+    <h2 class="text-center">Book a Table</h2>
 </div>
-<div class="container white-background ">
-    <form method="post" action="{% url 'book_a_table' %}">
+<div class="container white-background">
+    <form method="post" action="{% url 'book_a_table' %}" id="book-table-form">
         {% csrf_token %}
         {{ booking_form | crispy }}
-        <button class="btn btn-signup ">Book Table</button>
+        <button class="btn btn-signup" id="book-table-button">Book Table</button>
     </form>
 </div>
+
 {%endblock%}
 

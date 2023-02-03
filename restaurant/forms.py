@@ -6,7 +6,8 @@ class BookingForm(forms.ModelForm):
     class Meta:
         model = BookingModel
         fields = ('date', 'time', 'heads')
-        # date = forms.DateField()
-        # time = forms.TimeField()
-        # heads = forms.NumberInput()
-        # allergies = forms.BooleanField()
+        widgets = {
+            'date': forms.DateInput(attrs={'type': 'date'}),
+            'time': forms.DateInput(attrs={'type': 'time'}),
+            'heads': forms.DateInput(attrs={'type': 'number'}),
+        }
