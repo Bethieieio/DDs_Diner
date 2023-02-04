@@ -11,6 +11,7 @@ class BookingModel(models.Model):
     date = models.DateField()
     time = models.TimeField()
     heads = models.IntegerField()
+    allergies = models.BooleanField(default=False)
 
 
 class PreorderModel(models.Model):
