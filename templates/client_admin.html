@@ -16,10 +16,20 @@
             <div class="accordion-collapse collapse" id="collapse-{{ booking.id }}">
                 <div class="accordion-body">
                     <div>
+                        <label class="label">Time:</label>
                         {{ booking.time }}
                     </div>
                     <div>
+                        <label class="label">No of Guests:</label>
                         {{ booking.heads }}
+                    </div>
+                    <div>
+                        <label class="label">Allergies:</label>
+                        {% if booking.allergies %}
+                        Yes
+                        {% else %}
+                        No
+                        {% endif %}
                     </div>
                 </div>
             </div>
