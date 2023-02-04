@@ -40,16 +40,22 @@
             <div class="collapse navbar-collapse" id="navbarExample01">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item active">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" aria-current="page" href="{% url 'home' %}">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Menu</a>
+                    <a class="nav-link" href="{% url 'menu' %}">Menu</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Reviews</a>
+                    <a class="nav-link" href="{% url 'reviews' %}">Reviews</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Book a Table</a>
+                    <a class="nav-link" href="{% url 'book_a_table' %}">Book a Table</a>
+                </li>
+                <li class="nav-item">
+                    {% if user.is_authenticated %}
+                        <a class="nav-link" href="{% url 'your_bookings' %}">Your Bookings</a>
+                    {% endif %}
+                </li>
                 </li>
                 <li class="nav-item">
                     {% if not user.is_authenticated %}
