@@ -3,6 +3,7 @@ from django.views import View
 from .forms import BookingForm, ClientSignUpForm
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
+from .models import BookingModel
 
 # Create your views here.
 
@@ -69,10 +70,15 @@ class BookingCreation(View):
         )
 
 
+@method_decorator(login_required, name='dispatch')
 class ClientAdmin(View):
     def get(self, request):
-
+        bookings = BookingModel.objects.filter(user_id=request.user.id)
+        print(bookings)
         return render(
             request,
             "client_admin.html",
+            {
+                "bookings": bookings
+            }
         )
