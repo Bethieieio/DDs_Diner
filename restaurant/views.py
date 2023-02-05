@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views import View
-from .forms import BookingForm, ClientSignUpForm
+from .forms import BookingForm, ClientSignUpForm, ReviewForm
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
 from .models import BookingModel
@@ -32,10 +32,30 @@ class Menu(View):
 
 class Reviews(View):
     def get(self, request):
-
+        review_form = ReviewForm()
         return render(
             request,
             "reviews.html",
+            {
+                "review_form": review_form,
+            }
+        )
+
+    def post(self, request):
+        # create post here
+        review_form = ReviewForm(data=request.POST)
+        if review_form.is_valid():
+            review = review_form.save(commit=False)
+            review.user = request.user
+            review.save()
+        else:
+            review_form = ReviewForm()
+        return render(
+            request,
+            "reviews.html",
+            {
+                "review_form": review_form,
+            }
         )
 
 

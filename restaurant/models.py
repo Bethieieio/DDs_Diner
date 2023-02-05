@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from django.utils.timezone import now
 
 
 class BookingModel(models.Model):
@@ -34,7 +35,7 @@ class CreateReviews(models.Model):
         related_name='reviews',
     )
     review = models.TextField()
-    creation_date = models.DateField()
+    creation_date = models.DateTimeField(default=now)
 
 
 class LikeReviews(models.Model):

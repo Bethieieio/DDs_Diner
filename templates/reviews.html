@@ -1,7 +1,20 @@
 {% extends "base.html" %}
-
+{% load crispy_forms_tags %}
 {% block content %}
-<div class="container">
-        
+<div class="container my-5">
+    <h2 class="text-center">Write a Review</h2>
+</div>
+<div class="container white-background py-5">
+    <form method="post" action="{% url 'reviews' %}" id="review_form">
+        {% csrf_token %}
+        {{ review_form | crispy }}
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <button class="btn btn-signup" id="book-table-button">Submit Review</button>
+                </div>
+            </div>
+        </div>
+    </form>
 </div>
 {%endblock%}

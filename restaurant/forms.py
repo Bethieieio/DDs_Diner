@@ -1,4 +1,4 @@
-from .models import BookingModel
+from .models import BookingModel, CreateReviews
 from django import forms
 from allauth.account.forms import SignupForm
 
@@ -27,3 +27,9 @@ class BookingForm(forms.ModelForm):
             'heads': forms.DateInput(attrs={'type': 'number'}),
             'allergies': forms.CheckboxInput,
         }
+
+
+class ReviewForm(forms.ModelForm):
+    class Meta:
+        model = CreateReviews
+        fields = ('review',)
