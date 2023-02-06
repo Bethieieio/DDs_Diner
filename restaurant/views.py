@@ -3,7 +3,7 @@ from django.views import View
 from .forms import BookingForm, ClientSignUpForm, ReviewForm
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
-from .models import BookingModel
+from .models import BookingModel, CreateReviews
 
 # Create your views here.
 
@@ -33,16 +33,19 @@ class Menu(View):
 class Reviews(View):
     def get(self, request):
         review_form = ReviewForm()
+        reviews = CreateReviews.objects.all()
+
         return render(
             request,
             "reviews.html",
             {
                 "review_form": review_form,
+                "reviews": reviews,
             }
         )
 
+    # TODO add add login decorator here and thats for stopping people creating reviews if they are not logged in
     def post(self, request):
-        # create post here
         review_form = ReviewForm(data=request.POST)
         if review_form.is_valid():
             review = review_form.save(commit=False)
@@ -94,7 +97,6 @@ class BookingCreation(View):
 class ClientAdmin(View):
     def get(self, request):
         bookings = BookingModel.objects.filter(user_id=request.user.id)
-        print(bookings)
         return render(
             request,
             "client_admin.html",
@@ -102,3 +104,5 @@ class ClientAdmin(View):
                 "bookings": bookings
             }
         )
+
+
