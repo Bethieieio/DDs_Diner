@@ -4,6 +4,8 @@ from .forms import BookingForm, ClientSignUpForm, ReviewForm
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
 from .models import BookingModel, CreateReviews
+from django.http import HttpResponseRedirect
+from django.contrib import messages
 
 # Create your views here.
 
@@ -51,8 +53,9 @@ class Reviews(View):
             review = review_form.save(commit=False)
             review.user = request.user
             review.save()
-        else:
-            review_form = ReviewForm()
+            messages.success(request, 'Thank You! Your review has been submitted!')
+
+            return HttpResponseRedirect('/reviews')
         return render(
             request,
             "reviews.html",
@@ -80,7 +83,8 @@ class BookingCreation(View):
             booking = booking_form.save(commit=False)
             booking.user = request.user
             booking.save()
-            # TODO redirect to booking list
+            
+            return HttpResponseRedirect('/your_bookings')
         else:
             booking_form = BookingForm()
 
