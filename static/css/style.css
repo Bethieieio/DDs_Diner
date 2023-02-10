@@ -54,12 +54,16 @@ body {
     right: 0;
 }
 
-.btn-yellow {
-    background-color: #FFBE33;
-    font-size: 1.75em;
-    font-family: 'pacifico', sans-serif;
-    padding: 0.30em 1.30em;
-    box-shadow: 3px 3px 3px black;
+/* sign up form */
+#signup_form {
+    font-family: 'Anek Gujarati', sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.sign-up-title {
+    color: #A82428;
+    font-size: 3em;
 }
 
 
@@ -78,6 +82,14 @@ h3 {
 font-family: 'Anek Gujarati', sans-serif;
 font-size: 2em;
 font-weight: 800;
+}
+
+.btn-yellow {
+    background-color: #FFBE33;
+    font-size: 1.75em;
+    font-family: 'pacifico', sans-serif;
+    padding: 0.30em 1.30em;
+    box-shadow: 3px 3px 3px black;
 }
 
 /* Book a Table */
