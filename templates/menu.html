@@ -1,8 +1,60 @@
 {% extends "base.html" %}
 
 {% block content %}
+<div class="container mt-5">
+    <h2 class="text-center">Menu</h2>
+</div>
 <div class="container">
-        
+    <div class="container white-background py-5">
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-mainmeal" aria-expanded="true" aria-controls="collapseOne">
+                    MAIN MEAL
+                    </button>
+                </div>
+                <div class="accordion-collapse collapse" id="collapse-mainmeal">
+                    <div class="accordion-body">
+                        <div>
+                            <label class="label">BURGER</label>
+                            BURGER IMAGE
+                        </div>
+                        <div>
+                            <label class="label">CHICKEN NUGGETS</label>
+                            CHICKEN NUGGETS IMAGE
+                        </div>
+                        <div>
+                            <label class="label">HOT DOG:</label>
+                            HOT DOG IMAGE
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <div class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-sides" aria-expanded="true" aria-controls="collapseOne">
+                    SIDES
+                    </button>
+                </div>
+                <div class="accordion-collapse collapse" id="collapse-sides">
+                    <div class="accordion-body">
+                        <div>
+                            <label class="label">FRIES</label>
+                            FRIES IMAGE
+                        </div>
+                        <div>
+                            <label class="label">POTATO WAFFLES</label>
+                            POTATO WAFFLES IMAGE
+                        </div>
+                        <div>
+                            <label class="label">GARLIC BREAD</label>
+                            GARLIC BREAD IMAGE
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 {%endblock%}
 
