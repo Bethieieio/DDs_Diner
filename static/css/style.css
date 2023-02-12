@@ -104,7 +104,7 @@ font-size: 2em;
 
 .menu-title {
     font-family: 'Anek Gujarati', sans-serif;
-    font-size: 2vw;
+    font-size: 2em;
     font-weight: 600;
     color: #A82428;
     text-decoration: underline;
@@ -124,9 +124,22 @@ border: solid #FFBE33 4px;
 .menu-desc {
     padding: 20px;
     font-family: 'Anek Gujarati', sans-serif;
-    font-size: 1.5vw;
+    font-size: 1em;
 }
 
+.accordion-collapse {
+    max-height: 450px;
+    overflow: scroll;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #A82428;
+    background-color: #FFBE33;
+}
+
+.accordion-item {
+    background-color: transparent;
+}
 
 /* Book a Table */
 
