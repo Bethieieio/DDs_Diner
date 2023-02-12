@@ -117,7 +117,6 @@ border: solid #FFBE33 4px;
 .image-on-left {
     display: flex;
     flex-direction: row-reverse;
-    text-align: right;
 }
 
 
