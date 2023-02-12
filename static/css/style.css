@@ -92,6 +92,42 @@ font-weight: 800;
     box-shadow: 3px 3px 3px black;
 }
 
+ul {
+    list-style: none;
+}
+
+/* Menu */
+.menu-button {
+font-family: 'pacifico', sans-serif;
+font-size: 2em;
+}
+
+.menu-title {
+    font-family: 'Anek Gujarati', sans-serif;
+    font-size: 2vw;
+    font-weight: 600;
+    color: #A82428;
+    text-decoration: underline;
+}
+
+.img-fluid {
+border: solid #FFBE33 4px;
+}
+
+.image-on-left {
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+
+.menu-desc {
+    padding: 20px;
+    font-family: 'Anek Gujarati', sans-serif;
+    font-size: 1.5vw;
+}
+
+
 /* Book a Table */
 
 #book-table-button {
