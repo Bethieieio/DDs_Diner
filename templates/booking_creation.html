@@ -6,14 +6,14 @@
 <div class="container my-5">
     <h2 class="text-center">Book a Table</h2>
 </div>
-<div class="container white-background py-5">
+<div class="container white-background py-5 book-table-form-container">
     <form method="post" action="{% url 'book_a_table' %}" id="book-table-form">
         {% csrf_token %}
         {{ booking_form | crispy }}
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-auto">
-                    <button class="btn btn-signup" id="book-table-button">Book Table</button>
+                    <button class="btn btn-yellow" id="book-table-button">Book Table</button>
                 </div>
             </div>
         </div>
