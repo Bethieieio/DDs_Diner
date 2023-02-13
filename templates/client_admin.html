@@ -4,7 +4,7 @@
 <div class="container my-5">
     <h2 class="text-center">Your Bookings, {{ user.username }}</h2>
 </div>
-<div class="container white-background py-5">
+<div class="container white-background py-5 accordion-container">
     <div class="accordion">
         {% for booking in bookings %}
         <div class="accordion-item">
@@ -13,7 +13,7 @@
                     {{ booking.date }}
                 </button>
             </div>
-            <div class="accordion-collapse collapse" id="collapse-{{ booking.id }}">
+            <div class="accordion-collapse collapse booking-details" id="collapse-{{ booking.id }}">
                 <div class="accordion-body">
                     <div>
                         <label class="label">Time:</label>
