@@ -104,7 +104,7 @@ font-size: 2em;
 
 .menu-title {
     font-family: 'Anek Gujarati', sans-serif;
-    font-size: 2em;
+    font-size: 2.5em;
     font-weight: 600;
     color: #A82428;
     text-decoration: underline;
@@ -123,7 +123,7 @@ border: solid #FFBE33 4px;
 .menu-desc {
     padding: 20px;
     font-family: 'Anek Gujarati', sans-serif;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 
 .accordion-collapse {
