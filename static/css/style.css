@@ -153,13 +153,19 @@ border: solid #FFBE33 4px;
 }
 
 #book-table-form label {
-    font-family: 'Anek Gujarati', sans-serif;
+    font-family: 'pacifico', sans-serif;
     font-size: 2em;
     font-weight: 550;
+    color: #A82428;
+
 }
 
 .form-check-input:checked {
-    background-color: #A82428;
+    background-color: #FFBE33;
+}
+
+.form-check-label {
+    color: #A82428;
 }
 
 /* Review.review */
