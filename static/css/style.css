@@ -61,9 +61,22 @@ body {
     font-size: 1.75em;
 }
 
-.sign-up-title {
+/* signin / login / logout*/
+.login {
+    font-family: 'Anek Gujarati', sans-serif;
+        font-weight: 600;
+        font-size: 1.5em;
+    }
+    
+.red-title {
     color: #A82428;
     font-size: 3em;
+    }
+
+.signout-message {
+    font-family: 'Anek Gujarati', sans-serif;
+    font-size: 2em;
+    color: black;
 }
 
 
@@ -216,12 +229,6 @@ border: solid #FFBE33 4px;
     font-weight: 500;
 }
 
-/* login */
-.login {
-font-family: 'Anek Gujarati', sans-serif;
-    font-weight: 600;
-    font-size: 1.5em;
-}
 
 
 

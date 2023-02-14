@@ -7,9 +7,9 @@
 
 {% block content %}
 <div class="container white-background mt-5 p-5 text-center" >
-  <h2 class="sign-up-title"> {% trans "Log In!" %} </h2>
+  <h2 class="red-title"> {% trans "Log In!" %} </h2>
 
-  <form class="login signup text-center mt-5" method="POST" action="{% url 'account_login' %}">
+  <form class="login text-center mt-5" method="POST" action="{% url 'account_login' %}">
     {% csrf_token %}
     {{ form.as_p }}
     {% if redirect_field_value %}
