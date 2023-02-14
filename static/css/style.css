@@ -96,6 +96,11 @@ ul {
     list-style: none;
 }
 
+.textarea {
+    font-family: 'Anek Gujarati', sans-serif;
+    font-size: 1.25em;
+}
+
 /* Menu */
 
 .menu-title {
@@ -180,6 +185,12 @@ border: solid #FFBE33 4px;
     font-family: 'Anek Gujarati', sans-serif;
     color: black;
     font-size: 1em;
+}
+
+.requiredField {
+    font-family: 'pacifico', sans-serif;
+    font-size: 2em;
+    color: #A82428;
 }
 
 /* booking admin */
