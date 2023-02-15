@@ -23,7 +23,7 @@ class BookingForm(forms.ModelForm):
         fields = ('date', 'time', 'heads', 'allergies')
         widgets = {
             'date': forms.DateInput(attrs={'type': 'date'}),
-            'time': forms.DateInput(attrs={'type': 'time'}),
+            'time': forms.TimeInput(attrs={'type': 'time'}),
             'heads': forms.DateInput(attrs={'type': 'number'}),
             'allergies': forms.CheckboxInput,
         }
