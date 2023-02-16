@@ -121,7 +121,7 @@ class BookingEdit(View):
         )
     def post(self, request, id):
         booking = get_object_or_404(BookingModel, id=id)
-        
+
         if (request.user.id != booking.user.id):
             raise PermissionDenied()
         booking_form = BookingForm(instance=booking, data=request.POST)
@@ -153,4 +153,14 @@ class ClientAdmin(View):
             }
         )
 
+
+@method_decorator(login_required, name='dispatch')
+class BookingDelete(View):
+    def post(self, request, id):
+        booking = get_object_or_404(BookingModel, id=id)
+        if (request.user.id != booking.user.id):
+            raise PermissionDenied()
+            
+        booking.delete()
+        return HttpResponseRedirect('/your_bookings')
 

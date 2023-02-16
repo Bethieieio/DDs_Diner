@@ -268,8 +268,12 @@ footer a:hover {
 
 footer li{
     font-size: 2em;
+    border: 1px ;
 }
 
+.delete_booking {
+    display: inline-block;
+}
 
 
 

@@ -33,7 +33,10 @@
                     </div>
                     <div class="mt-3">
                         <a href="{% url 'edit_booking' booking.id %}" class="btn btn-black">Edit</a>
-                        <button class="btn btn-black">Delete</button>
+                        <form class="delete_booking"action="{% url 'delete_booking' booking.id %}" method="post">
+                            <button class="btn btn-black">Delete</button>
+                            {% csrf_token %}
+                        </form>
                     </div>
                 </div>
             </div>
