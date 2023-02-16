@@ -114,6 +114,10 @@ ul {
     font-size: 1.25em;
 }
 
+li {
+    list-style-type: none;
+}
+
 /* Menu */
 
 .menu-title {
@@ -247,6 +251,26 @@ border: solid #FFBE33 4px;
     background-color: #FFBE33;
     color: #A82428;
 }
+
+/* footer */
+footer {
+    font-size: 1em;
+    color: #FFFFFF;
+    font-family: 'Anek Gujarati', sans-serif;
+}
+
+footer a {
+    color: #FFFFFF;
+}
+footer a:hover {
+    color: #FFBE33;
+}
+
+footer li{
+    font-size: 2em;
+}
+
+
 
 
 
