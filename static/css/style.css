@@ -266,9 +266,8 @@ footer a:hover {
     color: #FFBE33;
 }
 
-footer li{
-    font-size: 2em;
-    border: 1px ;
+.footer-link {
+    font-size: 2.5em;
 }
 
 .delete_booking {
