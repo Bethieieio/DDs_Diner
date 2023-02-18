@@ -54,6 +54,12 @@ body {
     right: 0;
 }
 
+/* map */
+iframe {
+    height:50vh;
+    width: 100%;
+}
+
 /* sign up form */
 #signup_form label {
     font-family: 'Anek Gujarati', sans-serif;
