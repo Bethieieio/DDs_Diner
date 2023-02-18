@@ -222,6 +222,19 @@ border: solid #FFBE33 4px;
     color: #A82428;
 }
 
+.btn-like {
+    color: #A82428;
+    border: none;
+    background: transparent;
+}
+
+.btn-like:hover,
+.btn-like:active {
+    color: #A82428;
+    background: transparent;
+    border: none;
+}
+
 /* booking admin */
 .accordion-container {
     border: 4px solid #FFBE33;

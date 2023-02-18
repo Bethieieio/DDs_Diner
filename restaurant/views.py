@@ -3,7 +3,7 @@ from django.views import View
 from .forms import BookingForm, ClientSignUpForm, ReviewForm
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
-from .models import BookingModel, CreateReviews
+from .models import BookingModel, CreateReviews, CreateReviews, LikeReviews
 from django.http import HttpResponseRedirect
 from django.contrib import messages
 from django.core.exceptions import PermissionDenied
@@ -38,12 +38,19 @@ class Reviews(View):
         review_form = ReviewForm()
         reviews = CreateReviews.objects.all()
 
+        if (request.user):
+            userLikes = LikeReviews.objects.filter(user__id=request.user.id)
+        else:
+            userLikes = []
+        # count all review likes?
+
         return render(
             request,
             "reviews.html",
             {
                 "review_form": review_form,
                 "reviews": reviews,
+                "userLikes": userLikes.values_list('review__id', flat=True),
             }
         )
 
@@ -163,4 +170,22 @@ class BookingDelete(View):
             
         booking.delete()
         return HttpResponseRedirect('/your_bookings')
+
+
+@method_decorator(login_required, name='dispatch')
+class LikeReview(View):
+    def post(self, request, reviewId):
+        review = get_object_or_404(CreateReviews, id=reviewId)
+
+        try:
+            likeReview = LikeReviews.objects.get(user__id=request.user.id, review__id=review.id)
+        except LikeReviews.DoesNotExist:
+            likeReview = None
+        if (
+            likeReview
+        ):
+            likeReview.delete()
+        else:
+            likeReview = LikeReviews.objects.create(review=review, user=request.user, like_unlike=True)
+        return HttpResponseRedirect('/reviews')
 

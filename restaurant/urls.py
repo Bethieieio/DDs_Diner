@@ -10,4 +10,5 @@ urlpatterns = [
     path('your_bookings', views.ClientAdmin.as_view(), name='your_bookings'),
     path('your_bookings/<int:id>', views.BookingEdit.as_view(), name='edit_booking'),
     path('delete/<int:id>', views.BookingDelete.as_view(), name='delete_booking'),
+    path('review_like/<int:reviewId>', views.LikeReview.as_view(), name='review_like'),
 ]
