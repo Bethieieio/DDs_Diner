@@ -103,6 +103,12 @@ font-size: 2em;
 font-weight: 800;
 }
 
+h4 {
+    font-family: 'pacifico', sans-serif;
+    font-size: 2em;
+    color: #A82428;
+}
+
 .btn-yellow {
     background-color: #FFBE33;
     font-size: 1.75em;
