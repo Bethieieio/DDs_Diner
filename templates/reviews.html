@@ -1,71 +1,79 @@
-{% extends "base.html" %}
-{% load crispy_forms_tags %}
-{% block content %}
+{% extends "base.html" %} {% load crispy_forms_tags %} {% block content %}
 
 <div class="container mt-5">
-    <h2 class="text-center">Reviews</h2>
+<h2 class="text-center">Reviews</h2>
 </div>
 <div class="text-center mb-4">
-        {% if not user.is_authenticated %}
-        <h3 class ="mt-5">Login to write a view!</h3>
-        <a class="btn btn-yellow" href="/accounts/login?next=/reviews">Login</a>
-        {% else %}
-        <a href=#write_review>
-        <button class="btn btn-yellow mt-5">
-            Write a Review
-        </button>
-        </a>
-        {% endif %}
-        
+{% if not user.is_authenticated %}
+<h3 class="mt-5">Login to write a view!</h3>
+<a class="btn btn-yellow" href="/accounts/login?next=/reviews">Login</a>
+{% else %}
+<a href="#write_review">
+    <button class="btn btn-yellow mt-5">Write a Review</button>
+</a>
+{% endif %}
 </div>
 <div class="container">
-    <div class="row">
-        {% for review in reviews %}
+<div class="row">
+    {% for review in reviews %}
     <div class="col-6">
-        <div class="card white-background m-3 p-3 review-container">
-            <div class="review-review">
-                <p>{{ review.review }}</p>
+    <div class="card white-background m-3 p-3 review-container">
+        <div class="review-review">
+            <p>{{ review.review }}</p>
+        </div>
+        <div class="review-info">
+            <div>
+                <div class="author">{{ review.user }}</div>
+                <div class="review-date">{{ review.creation_date }}</div>
+            </div>
+            <div class="p-2">
                 {% if user.is_authenticated %}
-                    <form class="d-inline" action="{% url 'review_like' review.id %}" method="POST">
-                        {% csrf_token %}
-                        {% if review.id in userLikes %}
-                        <button type="submit" name="blogpost_id" value="{{review.id}}" class="btn-like"><i class="fas fa-heart"></i></button>
-                        {% else %}
-                        <button type="submit" name="blogpost_id" value="{{review.id}}" class="btn-like"><i class="far fa-heart"></i></button>
-                        {% endif %}
+                    <form
+                    class="d-inline"
+                    action="{% url 'review_like' review.id %}"
+                    method="POST"
+                    >
+                    {% csrf_token %}
+                    {% if review.id in userLikes %}
+                        <button
+                            type="submit"
+                            class="btn-like"
+                        >
+                            <i class="fas fa-heart"></i>
+                        </button>
+                    {% else %}
+                        <button
+                            type="submit"
+                            class="btn-like"
+                        >
+                            <i class="far fa-heart"></i>
+                        </button>
+                    {% endif %}
                     </form>
                 {% else %}
-                    <span class="text-secondary"><i class="far fa-heart"></i></span>
+                <span class="text-secondary"><i class="far fa-heart"></i></span>
                 {% endif %}
-                <div>
-                    {{ review.like_unlike.count }}
-                </div>
-            </div>
-            <div class="author">
-            {{ review.user }}
-            </div>
-            <div class="review-date">
-            {{ review.creation_date }}
+                <span> {{ review.like_unlike.count }} </span>
             </div>
         </div>
-        
     </div>
-        {% endfor %}
     </div>
+    {% endfor %}
+</div>
 </div>
 {% if user.is_authenticated %}
 <div class="container white-background my-5 review-container" id="write_review">
-    <form method="post" action="{% url 'reviews' %}" id="review_form">
-        {% csrf_token %}
-        {{ review_form | crispy }}
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-auto">
-                    <button class="btn btn-yellow" id="book-table-button">Submit Review</button>
-                </div>
-            </div>
+<form method="post" action="{% url 'reviews' %}" id="review_form">
+    {% csrf_token %} {{ review_form | crispy }}
+    <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-auto">
+        <button class="btn btn-yellow" id="book-table-button">
+            Submit Review
+        </button>
         </div>
-    </form>
+    </div>
+    </div>
+</form>
 </div>
-{% endif %}
-{%endblock%}
+{% endif %} {%endblock%}

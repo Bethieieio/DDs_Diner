@@ -235,6 +235,11 @@ border: solid #FFBE33 4px;
     border: none;
 }
 
+.review-info {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* booking admin */
 .accordion-container {
     border: 4px solid #FFBE33;
