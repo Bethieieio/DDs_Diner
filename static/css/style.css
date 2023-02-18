@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
 }
 
+main {
+    margin-top: 72px;
+}
+
 body {
     background-color: #A82428;
 }
@@ -13,6 +17,12 @@ body {
 
 .navbar-expand-lg .navbar-collapse .navbar-nav {
     margin: auto;
+}
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 900;
+    top: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
