@@ -98,7 +98,8 @@ class BookingCreation(View):
             booking = booking_form.save(commit=False)
             booking.user = request.user
             booking.save()
-            
+
+            messages.success(request, 'Booking created successfully!')
             return HttpResponseRedirect('/your_bookings')
         else:
             booking_form = BookingForm()
@@ -110,6 +111,7 @@ class BookingCreation(View):
                 "booking_form": booking_form,
             }
         )
+
 
 @method_decorator(login_required, name='dispatch')
 class BookingEdit(View):
@@ -126,6 +128,7 @@ class BookingEdit(View):
                 'booking': booking
             }
         )
+
     def post(self, request, id):
         booking = get_object_or_404(BookingModel, id=id)
 
@@ -135,7 +138,8 @@ class BookingEdit(View):
         if booking_form.is_valid():
             booking = booking_form.save(commit=False)
             booking.save()
-            
+
+            messages.success(request, 'Booking edited successfully!')
             return HttpResponseRedirect('/your_bookings')
         else:
             booking_form = BookingForm()
@@ -147,6 +151,7 @@ class BookingEdit(View):
                 'booking': booking
             }
         )
+
 
 @method_decorator(login_required, name='dispatch')
 class ClientAdmin(View):
@@ -167,8 +172,9 @@ class BookingDelete(View):
         booking = get_object_or_404(BookingModel, id=id)
         if (request.user.id != booking.user.id):
             raise PermissionDenied()
-            
+
         booking.delete()
+        messages.success(request, 'Booking deleted successfully!')
         return HttpResponseRedirect('/your_bookings')
 
 
