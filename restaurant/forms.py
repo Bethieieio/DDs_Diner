@@ -1,20 +1,5 @@
 from .models import BookingModel, CreateReviews
 from django import forms
-from allauth.account.forms import SignupForm
-
-
-class ClientSignUpForm(SignupForm):
-    first_name = forms.CharField(max_length=30)
-    last_name = forms.CharField(max_length=30)
-
-    def save(self, request):
-
-        user = super(ClientSignUpForm, self).save(request)
-        return user
-
-    class Meta:
-        # model = User
-        fields = ('email', ' first_name', 'last_name', 'password1', 'password2', )
 
 
 class BookingForm(forms.ModelForm):

@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404
 from django.views import View
-from .forms import BookingForm, ClientSignUpForm, ReviewForm
+from .forms import BookingForm, ReviewForm
+from DDs_Diner.forms import ClientSignUpForm
 from django.contrib.auth.decorators import login_required
 from django.utils.decorators import method_decorator
 from .models import BookingModel, CreateReviews, CreateReviews, LikeReviews

@@ -156,3 +156,7 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_USERNAME_REQUIRED = False
 ACCOUNT_EMAIL_VERIFICATION = 'none'
+ACCOUNT_ADAPTER = 'DDs_Diner.user-adapter.MyAccountAdapter'
+ACCOUNT_AUTHENTICATION_METHOD = 'email'
+ACCOUNT_FORMS = {'signup': 'DDs_Diner.forms.ClientSignUpForm'}
+ACCOUNT_SIGNUP_REDIRECT_URL = '/book_a_table'

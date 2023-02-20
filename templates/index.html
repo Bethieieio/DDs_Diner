@@ -10,7 +10,7 @@
         {% endif %}
         {% if user.is_authenticated %}
         <a href="{% url 'book_a_table' %}" class="btn btn-yellow">
-                Book your Table, {{ user.username }}
+                Book your Table, {{ user.first_name }}
         </a>
         {% endif %}
     </div>
