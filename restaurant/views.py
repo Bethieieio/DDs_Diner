@@ -9,7 +9,6 @@ from django.http import HttpResponseRedirect
 from django.contrib import messages
 from django.core.exceptions import PermissionDenied
 
-# Create your views here.
 
 
 class Home(View):
@@ -76,13 +75,6 @@ class Reviews(View):
 
 @method_decorator(login_required, name='dispatch')
 class BookingCreation(View):
-    # TODO booking availability validation 
-    # make new method for ajax call to validate table availability 
-    # user selects date and time and heads
-    # make ajax call to check availability 
-    # fetch bookings within time frame (booking date and time + 1 hour)
-    # run algorithm to asercertain if fully booked for that table size
-    # return bolean for front end
     def get(self, request):
 
         return render(
