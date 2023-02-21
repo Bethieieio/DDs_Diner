@@ -30,9 +30,17 @@ Here are the simplified user stories with their priority score. This is so I can
 | overbooking validation  |  2 |
 | create map  |  2 |
 
-
+## Styles
+### Wireframes
+### Colour Schemes
+### Typeography
+### Media (Pictures)
+## Testing
+### Manual Testing
+### HTML VALIDATION
+### CSS VALIDATION
+### PEP8 
 ## Packages, Languages and Frameworks
-
 ### Django
 Django is an MVC (Model View Controller) framework. I have used Django as a backend service to provide endpoints, which render HTML using templates and handle POST form data. Django also handles user authentication tokens and sessions.
 ### AllAuth Customisation
@@ -46,12 +54,20 @@ I installed [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/
 
 ### Bootstrap
 I installed [Bootstrap](https://getbootstrap.com/) to utilise it's style classes and components. I have used Bootstrap components with JavaScript events such as the mobile menu and accordion components.
+
+### White Noise 
+- [White Noise](http://whitenoise.evans.io/en/latest/) was used to host static files on Heroku.
+
 ### Other
 - [Gunicorn](https://gunicorn.org/) - http server
 - [SQLParse](https://pypi.org/project/sqlparse/) - SQL Driver
 - [Python3](https://www.python.org/downloads/)
+- [GitHib](https://github.com/) - version control
+- [VS Code](https://code.visualstudio.com/) - IDE, where I wrote my codes.
+- [ElephantSQL](https://www.elephantsql.com/) - PostGRES database, where all my tables are stored.
 - Pip3 is a package manager for python
 - HTML/CSS structures and styles user interface.
+- Mark Down - This read me in in Mark Down.
 
 ## Database
 ### Database Structure
@@ -85,4 +101,31 @@ This is the plan for my database structure. I have one table per model and I hav
 - When running `python3 manage.py makemigrations` Django will check my database tables against my models in my application and create a unique migration file  which we can use to update table changes.
 - Running `python3 manage.py migrate` will execute these migration changes.
 
-<!-- colors, fonts, image, media
+## Resources 
+### General Resources
+- [Stack Overflow](https://stackoverflow.com/)
+- [W3Schools](https://www.w3schools.com/)
+The above helped me the most with this project when I needed guidence.
+### Tools
+- [PyCodeStyle](https://pypi.org/project/pycodestyle/) Used to test Python, as [PEP8 Validator](http://ww7.pep8online.com/) is still being weird.
+- [W3C HTML Validator](https://validator.w3.org/) was used to test the HTML.
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) was used to test the CSS.
+- [Balsamiq](https://balsamiq.com/) created by wireframes
+- [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - self explanatory. 
+
+## Deployment to Heroku 
+- I commit and pushed all my work to Github
+- Signed in and clicked on "New" and "New App".
+- I named the deployment, and chose "Europe" region.
+- Input all necessary config vars on the Heroku settings tab.
+- I made a procfile to start Gunicorn on Heroku and commited these changes.
+- On the deploy tab on Heroku, I connected my Github account and DD's Diner repository to it.
+- Clicked 'Deploy Branch'. 
+- Cliked on 'Open App' to view the DD's Diner site. 
+- Now whenever I make a commit, it automatically deploys to Heroku.
+
+> Because my local and heroku use the same database, there is no need formigrations ehen deploying.
+
+## Hourable Mentions
+- [Girlfriend](https://github.com/bashleigh) Kept me as sane is she possibly could, and answered all the questions I had as simply as possible.
+- Mentor Rich, big ups to him.
