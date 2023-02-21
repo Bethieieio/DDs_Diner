@@ -10,7 +10,6 @@ from django.contrib import messages
 from django.core.exceptions import PermissionDenied
 
 
-
 class Home(View):
     def get(self, request):
         signupform = ClientSignUpForm()
@@ -54,14 +53,18 @@ class Reviews(View):
             }
         )
 
-    # TODO add add login decorator here and thats for stopping people creating reviews if they are not logged in
+    # TODO add add login decorator here and thats for
+    # stopping people creating reviews if they are not logged in
     def post(self, request):
         review_form = ReviewForm(data=request.POST)
         if review_form.is_valid():
             review = review_form.save(commit=False)
             review.user = request.user
             review.save()
-            messages.success(request, 'Thank You! Your review has been submitted!')
+            messages.success(
+                request,
+                'Thank You! Your review has been submitted!',
+            )
 
             return HttpResponseRedirect('/reviews')
         return render(
@@ -177,7 +180,10 @@ class LikeReview(View):
         review = get_object_or_404(CreateReviews, id=reviewId)
 
         try:
-            likeReview = LikeReviews.objects.get(user__id=request.user.id, review__id=review.id)
+            likeReview = LikeReviews.objects.get(
+                user__id=request.user.id,
+                review__id=review.id,
+            )
         except LikeReviews.DoesNotExist:
             likeReview = None
         if (
@@ -185,6 +191,9 @@ class LikeReview(View):
         ):
             likeReview.delete()
         else:
-            likeReview = LikeReviews.objects.create(review=review, user=request.user, like_unlike=True)
+            likeReview = LikeReviews.objects.create(
+                review=review,
+                user=request.user,
+                like_unlike=True,
+            )
         return HttpResponseRedirect('/reviews')
-
