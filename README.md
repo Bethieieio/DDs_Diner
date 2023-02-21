@@ -128,4 +128,4 @@ The above helped me the most with this project when I needed guidence.
 
 ## Hourable Mentions
 - [Girlfriend](https://github.com/bashleigh) Kept me as sane is she possibly could, and answered all the questions I had as simply as possible.
-- Mentor Rich, big ups to him.
+- My Mentor Rich, big ups to him. Thank you (:
