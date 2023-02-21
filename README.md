@@ -1,6 +1,6 @@
 # DD's Diner
 This is a website about a fictional diner where you can book a table, view your bookings and also edit or delete them too. It is my forth project for Code Institute, it uses [Django](https://www.djangoproject.com/). It is for educational purposes only.
-You can view it ![HERE](https://project-four-dds-diner.herokuapp.com/) on [Heroku](https://dashboard.heroku.com/), a cloud hosting provider.
+You can view it [HERE](https://project-four-dds-diner.herokuapp.com/) on [Heroku](https://dashboard.heroku.com/), a cloud hosting provider.
 
 ![Am I Reaponsive](assets/readme_assets/am-i-responsive.png)
 
@@ -10,7 +10,7 @@ You can view it ![HERE](https://project-four-dds-diner.herokuapp.com/) on [Herok
 I have two types of user. The first is an admin user that can manage and delete booking, also delete reviews if they show inapporopriate langauge. The second type of user is the customers of DD's Diner. They can create, edit and delete their bookings, they can also write and like reviews.  The user can only do this, if they have created an account.
 
 Here are the user stories, I made them into GitHub issues and created a project so I can track them using Kanban.
-Please view this ![HERE](https://github.com/users/Bethieieio/projects/2).
+Please view this [HERE](https://github.com/users/Bethieieio/projects/2).
 
 ## Feature Priority
 Here are the simplified user stories with their priority score. This is so I can prioritise time for the most important features.
@@ -85,4 +85,4 @@ This is the plan for my database structure. I have one table per model and I hav
 - When running `python3 manage.py makemigrations` Django will check my database tables against my models in my application and create a unique migration file  which we can use to update table changes.
 - Running `python3 manage.py migrate` will execute these migration changes.
 
-<!-- colors, fonts, image, media,                            html, css, python, pip3,  -->
+<!-- colors, fonts, image, media
