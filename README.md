@@ -51,30 +51,30 @@ Anek Gujarati - for the main text on the website. I felt it did not over power t
 ### Media
 #### Photos
 Below are the links and names of the people who look the photos I used for my project. They are either from [Unsplash](https://unsplash.com/) or [Pexels](https://www.pexels.com/). Thank you!!
-[Dayanara Nacion](https://unsplash.com/photos/HuIJUp6gTDI) - Hero Image.
-[Max Bovkun](https://unsplash.com/photos/UcQ0MLuw8IE ) - 50's night advertisement on hompage.
-[Valeria Boltneva](https://www.pexels.com/photo/close-up-photo-of-burger-1639562/) - Burger image in menu.
-[王 大洪](https://unsplash.com/photos/PPwYBaC_g8M) - Hot Dog image in menu.
-[Glady Francis](https://www.pexels.com/photo/bowl-of-fries-on-table-1586942/) - Fries in menu.
-[Anton Uniqueton](https://www.pexels.com/photo/crispy-waffle-fries-5384838/) - Waffle fries in menu.
-[Dana Tentis](https://www.pexels.com/photo/vegetable-salad-with-wheat-bread-on-the-side-1213710/) - Salad in menu.
-[Esperanza Doronila](https://unsplash.com/photos/4FO9vox0T7M) - Onion rings in menu.
+[Dayanara Nacion](https://unsplash.com/photos/HuIJUp6gTDI) - Hero Image.  return
+[Max Bovkun](https://unsplash.com/photos/UcQ0MLuw8IE ) - 50's night advertisement on hompage.  return
+[Valeria Boltneva](https://www.pexels.com/photo/close-up-photo-of-burger-1639562/) - Burger image in menu.  return
+[王 大洪](https://unsplash.com/photos/PPwYBaC_g8M) - Hot Dog image in menu.  return
+[Glady Francis](https://www.pexels.com/photo/bowl-of-fries-on-table-1586942/) - Fries in menu.  return
+[Anton Uniqueton](https://www.pexels.com/photo/crispy-waffle-fries-5384838/) - Waffle fries in menu.  return
+[Dana Tentis](https://www.pexels.com/photo/vegetable-salad-with-wheat-bread-on-the-side-1213710/) - Salad in menu.  return
+[Esperanza Doronila](https://unsplash.com/photos/4FO9vox0T7M) - Onion rings in menu.  return
 [Georgiana Mirela](https://www.pexels.com/photo/close-up-photo-of-potato-wedges-1439177/)
-[Louis Hansel](https://unsplash.com/photos/OaGUHIjCdCs) Milkshake advertisement on homepage.
-[Richard Bell](https://unsplash.com/photos/ZFPz3caOmx8) - English breakfast adverrtisement on homepage.
-[Food Photographer](https://unsplash.com/photos/h7a8RsZFzgc) - Cola in menu.
-[Jonathan Borba](https://unsplash.com/photos/7TeR1A1MUpM ) - Milkshake image in menu.
-[ABHISHEK HAJARE](https://unsplash.com/photos/kkrXVKK-jhg) - Orange juice in menu
-[Taisiia Shestopal](https://unsplash.com/photos/xO9NotFY4mU) - Latte in menu.
-[Paige Ledford](https://unsplash.com/photos/1Di03LTniYE) - Mocktail in menu.
-[Bao Menglong](https://unsplash.com/photos/y_wGdAJMdOo ) - Ribs in menu.
-[The Fry Family Food Co.](https://unsplash.com/photos/bA4AIZwauxc) - Vege chicken-style wrap.
-[Keriliwi](https://unsplash.com/photos/v_JswZL-s3k) - Chicken wings in menu.
-[Mink Mingle](https://unsplash.com/photos/LGNxQzYmeUk) - Cheesecake in menu.
-[Céline Druguet](https://unsplash.com/photos/vxWMHx7m8iY) - Sundae in menu.
-[Shivansh Sethi](https://unsplash.com/photos/dKT6Q7q2UKs) - Chocolate brownie in menu.
-[Yulia Khlebnikova](https://unsplash.com/photos/HLwc-ne0IQM) - Fruit salad in menu.
-[Edward Howell](https://unsplash.com/photos/ZXmxQ0Ny_IY) - Sticky toffee pudding in menu.
+[Louis Hansel](https://unsplash.com/photos/OaGUHIjCdCs) Milkshake advertisement on homepage.  return
+[Richard Bell](https://unsplash.com/photos/ZFPz3caOmx8) - English breakfast adverrtisement on homepage.  return
+[Food Photographer](https://unsplash.com/photos/h7a8RsZFzgc) - Cola in menu.  return
+[Jonathan Borba](https://unsplash.com/photos/7TeR1A1MUpM ) - Milkshake image in menu.  return
+[ABHISHEK HAJARE](https://unsplash.com/photos/kkrXVKK-jhg) - Orange juice in menu.  return
+[Taisiia Shestopal](https://unsplash.com/photos/xO9NotFY4mU) - Latte in menu.  return
+[Paige Ledford](https://unsplash.com/photos/1Di03LTniYE) - Mocktail in menu.  return
+[Bao Menglong](https://unsplash.com/photos/y_wGdAJMdOo ) - Ribs in menu.  return
+[The Fry Family Food Co.](https://unsplash.com/photos/bA4AIZwauxc) - Vege chicken-style wrap.  return
+[Keriliwi](https://unsplash.com/photos/v_JswZL-s3k) - Chicken wings in menu.  return
+[Mink Mingle](https://unsplash.com/photos/LGNxQzYmeUk) - Cheesecake in menu.  return
+[Céline Druguet](https://unsplash.com/photos/vxWMHx7m8iY) - Sundae in menu.  return
+[Shivansh Sethi](https://unsplash.com/photos/dKT6Q7q2UKs) - Chocolate brownie in menu.  return
+[Yulia Khlebnikova](https://unsplash.com/photos/HLwc-ne0IQM) - Fruit salad in menu.  return
+[Edward Howell](https://unsplash.com/photos/ZXmxQ0Ny_IY) - Sticky toffee pudding in menu.  return
 
 #### ClipArt
 [Logo](http://clipart-library.com/search1/?q=saturn#gsc.tab=1&gsc.q=saturn&gsc.page=1) - This is the logo located in the top left page throughout the website, the colours and DD's text was edited in.
