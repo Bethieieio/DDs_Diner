@@ -41,6 +41,9 @@ Here are the wireframes I created before starting this project. As you can see c
 ![image](assets/readme_assets/wireframe-login.png)
 
 ### Colour Schemes
+I got inspiration from to use my chosen colours of red, yellow, off white from [Coolors][https://coolors.co/ebebeb-a82428-ffbe33-000000] (press link to see colours). Red and yellow stand out from eachother. They also represent colours from diners and two very famous fast food restuarants...
+I chose black as it bold and stands out from the other colours I have chosen. I chose an off white instead of a 'normal' white as I just wanted something different.
+<span style= 'color: #A82428'>Auburn</span>
 ### Typeography
 ### Media (Pictures)
 ## Testing
