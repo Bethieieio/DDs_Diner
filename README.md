@@ -50,37 +50,81 @@ Pacifico  - for the the main titles and the logo. I felt that it was fancy and l
 Anek Gujarati - for the main text on the website. I felt it did not over power the page. easy for everyone to read. It look sleek and simple enough not to clash with the title font.
 ### Media
 #### Photos
-Below are the links and names of the people who look the photos I used for my project. They are either from [Unsplash](https://unsplash.com/) or [Pexels](https://www.pexels.com/). Thank you!!
-[Dayanara Nacion](https://unsplash.com/photos/HuIJUp6gTDI) - Hero Image.  return
-[Max Bovkun](https://unsplash.com/photos/UcQ0MLuw8IE ) - 50's night advertisement on hompage.  return
-[Valeria Boltneva](https://www.pexels.com/photo/close-up-photo-of-burger-1639562/) - Burger image in menu.  return
-[王 大洪](https://unsplash.com/photos/PPwYBaC_g8M) - Hot Dog image in menu.  return
-[Glady Francis](https://www.pexels.com/photo/bowl-of-fries-on-table-1586942/) - Fries in menu.  return
-[Anton Uniqueton](https://www.pexels.com/photo/crispy-waffle-fries-5384838/) - Waffle fries in menu.  return
-[Dana Tentis](https://www.pexels.com/photo/vegetable-salad-with-wheat-bread-on-the-side-1213710/) - Salad in menu.  return
-[Esperanza Doronila](https://unsplash.com/photos/4FO9vox0T7M) - Onion rings in menu.  return
+Below are the links and names of the people who look the photos I used for my project. They are either from [Unsplash](https://unsplash.com/) or -- [Pexels](https://www.pexels.com/). Thank you!! </br>
+[Dayanara Nacion](https://unsplash.com/photos/HuIJUp6gTDI) - Hero Image.  <br/>
+[Max Bovkun](https://unsplash.com/photos/UcQ0MLuw8IE ) - 50's night advertisement on hompage.  <br/>
+[Valeria Boltneva](https://www.pexels.com/photo/close-up-photo-of-burger-1639562/) - Burger image in menu.  <br/>
+[王 大洪](https://unsplash.com/photos/PPwYBaC_g8M) - Hot Dog image in menu.  <br/>
+[Glady Francis](https://www.pexels.com/photo/bowl-of-fries-on-table-1586942/) - Fries in menu.  <br/>
+[Anton Uniqueton](https://www.pexels.com/photo/crispy-waffle-fries-5384838/) - Waffle fries in menu.  <br/>
+[Dana Tentis](https://www.pexels.com/photo/vegetable-salad-with-wheat-bread-on-the-side-1213710/) - Salad in menu.  <br/>
+[Esperanza Doronila](https://unsplash.com/photos/4FO9vox0T7M) - Onion rings in menu.  <br/>
 [Georgiana Mirela](https://www.pexels.com/photo/close-up-photo-of-potato-wedges-1439177/)
-[Louis Hansel](https://unsplash.com/photos/OaGUHIjCdCs) Milkshake advertisement on homepage.  return
-[Richard Bell](https://unsplash.com/photos/ZFPz3caOmx8) - English breakfast adverrtisement on homepage.  return
-[Food Photographer](https://unsplash.com/photos/h7a8RsZFzgc) - Cola in menu.  return
-[Jonathan Borba](https://unsplash.com/photos/7TeR1A1MUpM ) - Milkshake image in menu.  return
-[ABHISHEK HAJARE](https://unsplash.com/photos/kkrXVKK-jhg) - Orange juice in menu.  return
-[Taisiia Shestopal](https://unsplash.com/photos/xO9NotFY4mU) - Latte in menu.  return
-[Paige Ledford](https://unsplash.com/photos/1Di03LTniYE) - Mocktail in menu.  return
-[Bao Menglong](https://unsplash.com/photos/y_wGdAJMdOo ) - Ribs in menu.  return
-[The Fry Family Food Co.](https://unsplash.com/photos/bA4AIZwauxc) - Vege chicken-style wrap.  return
-[Keriliwi](https://unsplash.com/photos/v_JswZL-s3k) - Chicken wings in menu.  return
-[Mink Mingle](https://unsplash.com/photos/LGNxQzYmeUk) - Cheesecake in menu.  return
-[Céline Druguet](https://unsplash.com/photos/vxWMHx7m8iY) - Sundae in menu.  return
-[Shivansh Sethi](https://unsplash.com/photos/dKT6Q7q2UKs) - Chocolate brownie in menu.  return
-[Yulia Khlebnikova](https://unsplash.com/photos/HLwc-ne0IQM) - Fruit salad in menu.  return
-[Edward Howell](https://unsplash.com/photos/ZXmxQ0Ny_IY) - Sticky toffee pudding in menu.  return
-
+[Louis Hansel](https://unsplash.com/photos/OaGUHIjCdCs) Milkshake advertisement on homepage.  <br/>
+[Richard Bell](https://unsplash.com/photos/ZFPz3caOmx8) - English breakfast adverrtisement on homepage.  <br/>
+[Food Photographer](https://unsplash.com/photos/h7a8RsZFzgc) - Cola in menu.  <br/>
+[Jonathan Borba](https://unsplash.com/photos/7TeR1A1MUpM ) - Milkshake image in menu.  <br/>
+[ABHISHEK HAJARE](https://unsplash.com/photos/kkrXVKK-jhg) - Orange juice in menu.  <br/>
+[Taisiia Shestopal](https://unsplash.com/photos/xO9NotFY4mU) - Latte in menu.  <br/>
+[Paige Ledford](https://unsplash.com/photos/1Di03LTniYE) - Mocktail in menu.  <br/>
+[Bao Menglong](https://unsplash.com/photos/y_wGdAJMdOo ) - Ribs in menu.  <br/>
+[The Fry Family Food Co.](https://unsplash.com/photos/bA4AIZwauxc) - Vege chicken-style wrap.  <br/>
+[Keriliwi](https://unsplash.com/photos/v_JswZL-s3k) - Chicken wings in menu.  <br/>
+[Mink Mingle](https://unsplash.com/photos/LGNxQzYmeUk) - Cheesecake in menu.  <br/>
+[Céline Druguet](https://unsplash.com/photos/vxWMHx7m8iY) - Sundae in menu.  <br/>
+[Shivansh Sethi](https://unsplash.com/photos/dKT6Q7q2UKs) - Chocolate brownie in menu.  <br/>
+[Yulia Khlebnikova](https://unsplash.com/photos/HLwc-ne0IQM) - Fruit salad in menu. <br/>
+[Edward Howell](https://unsplash.com/photos/ZXmxQ0Ny_IY) - Sticky toffee pudding in menu. 
 #### ClipArt
-[Logo](http://clipart-library.com/search1/?q=saturn#gsc.tab=1&gsc.q=saturn&gsc.page=1) - This is the logo located in the top left page throughout the website, the colours and DD's text was edited in.
+[Logo](http://clipart-library.com/search1/?q=saturn#gsc.tab=1&gsc.q=saturn&gsc.page=1) - This is the logo located in the top left page throughout the website, the colours and DD's text was edited in. <br/>
 [Unused image](http://clipart-library.com/clipart/87973.htm) - This was the image I decided not to use, as I felt it did not fit well on the page. It is still in my wireframes.
 ## Testing
 ### Manual Testing
+- Implementation: During the signing up process of the website, the email has to be a valid looking email address.
+- Test: I attempted to sign up without an email structure as an email.
+- Result: The page told me that the email I tried did not contain the @ symbol.
+![image](assets/readme_assets/sign-up-manual-test-one.png)
+- Verdict: Successfull. A valid looking password needs to be inputted in order to sign up.
+***
+- Implementation: Makings sure the user cannot sign up with the same email address as before.
+- Test: I tried signing up using an email address that is already in the database.
+- Result: The page told me that a user has already sign up with the email address I have tried to enter.
+![image])(assets/sign-up-manual-test-two.png)
+- Verdict: Successful. You cannot sign up with a particular email address more than once.
+***
+- Implementation: Booking a table at DD's Dinner succesfully.
+- Test: I used website to book a table at a specific time, date and number of guests. I also tried to see if it's possible to submit a blank table.
+- Result: Once the tabe has been booked, it appears on the "Your Bookings" page. I saw the success message. You also cannot submit an empty form.
+![image](assets/readme_assets/booking-table-test-one.png)
+![image](assets/readme_assets/booking-table-test-one.png)
+![image](assets/readme_assets/blank-booking-manual test.png)
+- Verdict: Sucess, the user will be able to book a table and are shown they have been booked by a success message.
+***
+- Implementation: If for whatever reason the user needs to change the date, time, number of heads of allergy needs on a booking they have created, they should be able to do so.
+- Test: On the "Your Bookings" page, I found the booking I previously created. I cllicked on it and the edit button was shown. I clicked on this and I was able to edit the date from the 24th to the 26th February,
+![image](assets/readme_assets/edit-booking-manual-test-one.png)
+- Result: When I requested for the date to be changed, I got a messaging saying that I have edited my booking sucessfully.
+![image](assets/readme_assets/edit-booking-manual-test-two.png)
+- Verdict: Successful. The pop up message appeared and the date can be seen that it was changed by two days.
+***
+- Implementation:
+- Test:
+- Result:
+- Verdict:
+***
+- Implementation:
+- Test:
+- Result:
+- Verdict:
+***
+
+
+
+
+
+
+
+
 - make sure user can create edit view delete booking
 - make sure user can make review
 - make sure user can like / unlike reviews
@@ -121,8 +165,9 @@ I installed [Bootstrap](https://getbootstrap.com/) to utilise it's style classes
 - [GitHib](https://github.com/) - version control
 - [VS Code](https://code.visualstudio.com/) - IDE, where I wrote my codes.
 - [ElephantSQL](https://www.elephantsql.com/) - PostGRES database, where all my tables are stored.
-- Pip3 is a package manager for python
-- HTML/CSS structures and styles user interface.
+- [Font Awesome](https://fontawesome.com/) - for the Github symbol in the footer of the website.
+- Pip3 is a package manager for python.
+- HTML/CSS - structures and styles user interface.
 - Mark Down - This read me in in Mark Down.
 
 ## Database
@@ -161,6 +206,7 @@ This is the plan for my database structure. I have one table per model and I hav
 ### General Resources
 - [Stack Overflow](https://stackoverflow.com/)
 - [W3Schools](https://www.w3schools.com/)
+- [Google Map IFrame Genertor](https://google-map-generator.com/).
 The above helped me the most with this project when I needed guidence.
 ### Tools
 - [PyCodeStyle](https://pypi.org/project/pycodestyle/) Used to test Python, as [PEP8 Validator](http://ww7.pep8online.com/) is still being weird.
@@ -190,3 +236,4 @@ The above helped me the most with this project when I needed guidence.
 
 note
 fixed nav
+future fixes
