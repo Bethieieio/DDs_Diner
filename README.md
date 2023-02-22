@@ -41,10 +41,13 @@ Here are the wireframes I created before starting this project. As you can see c
 ![image](assets/readme_assets/wireframe-login.png)
 
 ### Colour Schemes
-I got inspiration from to use my chosen colours of red, yellow, off white from [Coolors][https://coolors.co/ebebeb-a82428-ffbe33-000000] (press link to see colours). Red and yellow stand out from eachother. They also represent colours from diners and two very famous fast food restuarants...
-I chose black as it bold and stands out from the other colours I have chosen. I chose an off white instead of a 'normal' white as I just wanted something different.
-<span style= 'color: #A82428'>Auburn</span>
+I got inspiration from to use my chosen colours of red, yellow, off white from [Coolors](https://coolors.co/ebebeb-a82428-ffbe33-000000) (press link to see colours). Red and yellow stand out from eachother. They also represent colours from diners and two very famous fast food restuarants...
+I chose black as it is bold and stands out from the other colours I have chosen. I chose an off white instead of a 'normal' white as I just wanted something different. I used the red mainly in the background border and navigation text. The off white as the main colour of text containers including the navigation bar background, the yellow as the main titles, accents on the off white containers, the hover colour on the nav, the main button colour and the colour the accordion title colour when they are clicked on. The black is used mostly for the main  text colour in the white containers.
 ### Typeography
+I used two font types for this webite.
+I used [Google Fonts]()
+Pacifico  - for the the main titles and the logo. I felt that it was fancy and looked like a font that diners have. But I made sure it was wasy enough for people to read. 
+Anek Gujarati - for the main text on the website. I felt it did not over power the page. easy for everyone to read. It look sleek and simple enough not to clash with the title font.
 ### Media (Pictures)
 ## Testing
 ### Manual Testing
@@ -152,3 +155,8 @@ The above helped me the most with this project when I needed guidence.
 ## Hourable Mentions
 - [Girlfriend](https://github.com/bashleigh) Kept me as sane is she possibly could, and answered all the questions I had as simply as possible.
 - My Mentor Rich, big ups to him. Thank you (:
+
+
+
+note
+fixed nav
