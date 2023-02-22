@@ -2,7 +2,7 @@
 This is a website about a fictional diner where you can book a table, view your bookings and also edit or delete them too. It is my forth project for Code Institute, it uses [Django](https://www.djangoproject.com/). It is for educational purposes only.
 You can view it [HERE](https://project-four-dds-diner.herokuapp.com/) on [Heroku](https://dashboard.heroku.com/), a cloud hosting provider.
 
-![Am I Reaponsive](assets/readme_assets/am-i-responsive.png)
+![image](assets/readme_assets/am-i-responsive.png)
 
 ## Target Audience
 - The main  
@@ -32,14 +32,34 @@ Here are the simplified user stories with their priority score. This is so I can
 
 ## Styles
 ### Wireframes
+Here are the wireframes I created before starting this project. As you can see certain ideas never made it to the final project, for example the preorder section on the table booking page and some CSS styles and positions. But as a whole, the final site is accurate to these wireframes.
+![image](assets/readme_assets/wireframe-home.png)
+![image](assets/readme_assets/wireframe-book-table.png)
+![image](assets/readme_assets/wireframe-edit-booking.png)
+![image](assets/readme_assets/wireframe-menu.png)
+![image](assets/readme_assets/wireframe-reviews.png)
+![image](assets/readme_assets/wireframe-login.png)
+
 ### Colour Schemes
 ### Typeography
 ### Media (Pictures)
 ## Testing
 ### Manual Testing
+- make sure user can create edit view delete booking
+- make sure user can make review
+- make sure user can like / unlike reviews
+- make sure user can sign up / log in  / log out 
+- make sure admin can view reviews and bookings 
+- make sure admin can delete reviews and bookings
+- make sure manu accordions work and google map.
 ### HTML VALIDATION
 ### CSS VALIDATION
 ### PEP8 
+
+installed pycodestyle which is a global command
+used pycodestyle to point out validation failure by running `pycodestyle --first */*.py`
+fixed each one manually and committed
+
 ## Packages, Languages and Frameworks
 ### Django
 Django is an MVC (Model View Controller) framework. I have used Django as a backend service to provide endpoints, which render HTML using templates and handle POST form data. Django also handles user authentication tokens and sessions.
