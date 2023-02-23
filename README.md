@@ -5,7 +5,11 @@ You can view it [HERE](https://project-four-dds-diner.herokuapp.com/) on [Heroku
 ![image](assets/readme_assets/am-i-responsive.png)
 
 ## Target Audience
-- The main  
+- For all ages
+- People who are wanting to visit somethere to eat.
+- Someone who might want to organise a meet up with friends or family at a restaurant.
+- People who are into the 50's 60's era.
+- Someone who just like looking at restaurant menus and making themselves hungry.. (so guilty at going this).
 ## User Stories
 I have two types of user. The first is an admin user that can manage and delete booking, also delete reviews if they show inapporopriate langauge. The second type of user is the customers of DD's Diner. They can create, edit and delete their bookings, they can also write and like reviews.  The user can only do this, if they have created an account.
 
@@ -153,11 +157,13 @@ Below are the links and names of the people who look the photos I used for my pr
 - Test:
 - Result:
 - Verdict:
+
 ***
-
-
-
-
+- Implementation:
+- Test:
+- Result:
+- Verdict:
+***
 
 
 
