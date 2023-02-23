@@ -84,13 +84,21 @@ Below are the links and names of the people who look the photos I used for my pr
 - Test: I attempted to sign up without an email structure as an email.
 - Result: The page told me that the email I tried did not contain the @ symbol.
 ![image](assets/readme_assets/sign-up-manual-test-one.png)
-- Verdict: Successfull. A valid looking password needs to be inputted in order to sign up.
+- Verdict: Successfull. A valid looking password needs to be input in order to sign up.
 ***
 - Implementation: Makings sure the user cannot sign up with the same email address as before.
 - Test: I tried signing up using an email address that is already in the database.
 - Result: The page told me that a user has already sign up with the email address I have tried to enter.
 ![image])(assets/sign-up-manual-test-two.png)
 - Verdict: Successful. You cannot sign up with a particular email address more than once.
+***
+- Implementation: User logging into the site.
+- Test: I went to the login page of the site and input my email address and password. I also used different ways of logging in by using the button 
+ located in on the 'book a table' and 'reviews' pages.
+ ![image](assets/readme_assets/booking-table-test-one.png)
+- Result: I signed in on the account the three times as explained above. Logging in from the sign in page directed me back to the homepage. Logging in by clicking the login button from the review page redirected me back to the reviews page. Finally, logging in using the log in on the 'book a table' page directs me to the booking form on the 'book a table' page.
+![image](assets/readme_assets/log-in-manual-test-two.png)
+- Verdict: All three times were a success, every time a pop appeared saying I was signed in. All the extra features were acccessible after I signed in.
 ***
 - Implementation: Booking a table at DD's Dinner succesfully.
 - Test: I used website to book a table at a specific time, date and number of guests. I also tried to see if it's possible to submit a blank table.
@@ -101,22 +109,36 @@ Below are the links and names of the people who look the photos I used for my pr
 - Verdict: Sucess, the user will be able to book a table and are shown they have been booked by a success message.
 ***
 - Implementation: If for whatever reason the user needs to change the date, time, number of heads of allergy needs on a booking they have created, they should be able to do so.
-- Test: On the "Your Bookings" page, I found the booking I previously created. I cllicked on it and the edit button was shown. I clicked on this and I was able to edit the date from the 24th to the 26th February,
+- Test: On the "Your Bookings" page, I found the booking I previously created. I clicked on it and the edit button was shown. I clicked on this and I was able to edit the date from the 24th to the 26th February,
 ![image](assets/readme_assets/edit-booking-manual-test-one.png)
 - Result: When I requested for the date to be changed, I got a messaging saying that I have edited my booking sucessfully.
 ![image](assets/readme_assets/edit-booking-manual-test-two.png)
 - Verdict: Successful. The pop up message appeared and the date can be seen that it was changed by two days.
 ***
-- Implementation:
-- Test:
-- Result:
-- Verdict:
+- Implementation: If something came up for the user and they can no longer go to DD's Dinerm they can cancel their booking by deleting their booking. The user needs a quick and easy way to do so.
+- Test: I viewed the booking that I recently edited and clicked the delete booking.
+- Result: As soon as I clicked the delete button, the booking was deleted and a pop up appeared explaining that the deletion was successful.
+![image](assets/readme_assets/delete-booking-manual-test.png)
+- Verdict: It was successful, the booking has been deleted off the website and from the database.
+***
+- Implementation: The user wants to leave a review about their experience at DD's Diner.
+- Test: Trying to leave a review before loggin in. When I was logged in, I left a test review on the 'reviews' page. 
+- Result: When not logged in, I was unable to see the text area on the 'reviews' page. When I was logged in and after writing a comment on the text area required, the comment I left appeared on the page hastily.
+- Verdict: As shown, the user needs to be logged in to be able to leave a review. Once they are logged in, they can leave as many reviews as they like. The pop up message confirms that the user submitted a review.
+![image](assets/readme_assets/review-manual-test-one.png)
+!![image](assets/readme_assets/review-manual-test-two.png)
+![image](assets/readme_assets/review-manual-test-three.png)
 ***
 - Implementation:
 - Test:
 - Result:
 - Verdict:
 ***
+- Implementation:
+- Test:
+- Result:
+- Verdict:
+***
 
 
 
@@ -125,10 +147,10 @@ Below are the links and names of the people who look the photos I used for my pr
 
 
 
-- make sure user can create edit view delete booking
+- make sure user can create edit view delete booking x
 - make sure user can make review
 - make sure user can like / unlike reviews
-- make sure user can sign up / log in  / log out 
+- make sure user can sign up / log in  / log out x
 - make sure admin can view reviews and bookings 
 - make sure admin can delete reviews and bookings
 - make sure manu accordions work and google map.
@@ -229,7 +251,7 @@ The above helped me the most with this project when I needed guidence.
 > Because my local and heroku use the same database, there is no need formigrations ehen deploying.
 
 ## Hourable Mentions
-- [Girlfriend](https://github.com/bashleigh) Kept me as sane is she possibly could, and answered all the questions I had as simply as possible.
+- [My Partner in crime](https://github.com/bashleigh) Kept me as sane is she possibly could, and answered all the questions I had as simply as possible.
 - My Mentor Rich, big ups to him. Thank you (:
 
 
