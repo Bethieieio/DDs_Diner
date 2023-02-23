@@ -173,6 +173,22 @@ Below are the links and names of the people who look the photos I used for my pr
 - make sure admin can delete reviews and bookings
 - make sure menu accordions work and google map.
 ### HTML VALIDATION
+I used [W3C](https://validator.w3.org/) to check my HTML. The following things are what it found:
+- Homepage / Base Page
+1. Firstly I forgot to add the langauge attribute to the head. I added this
+2. I then deleted the endinf '/' on a meta tag.
+3. I forgot to add an alt tag to the hero image, I added this.
+4. I had to move classes on some buttons to their 'a tag'.
+5. I got `<ul>` and `<li>` mixed up, I accedently put the `<ul>` inside the `<li>`. I corrected this.
+6. I had a a `</li>` but no `<li>` so I completed this tag.
+7. I had an unclosed `a` tag. I closed this.
+8. I had a a `</footer>` but no `<footer>` so I completed this tag.
+9. I had a a `</footer>` but no `<footer>` so I completed this tag.
+[!image](assets/readme_assets/base-index-html-test1.png)
+[!image](assets/readme_assets/base-index-html-test2.png)
+[!image](assets/readme_assets/base-index-html-test3.png)
+
+
 ### CSS VALIDATION
 ### PEP8 
 
