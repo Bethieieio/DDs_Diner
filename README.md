@@ -89,7 +89,7 @@ Below are the links and names of the people who look the photos I used for my pr
 - Implementation: Makings sure the user cannot sign up with the same email address as before.
 - Test: I tried signing up using an email address that is already in the database.
 - Result: The page told me that a user has already sign up with the email address I have tried to enter.
-![image])(assets/sign-up-manual-test-two.png)
+![image](assets/sign-up-manual-test-two.png)
 - Verdict: Successful. You cannot sign up with a particular email address more than once.
 ***
 - Implementation: User logging into the site.
@@ -104,8 +104,7 @@ Below are the links and names of the people who look the photos I used for my pr
 - Test: I used website to book a table at a specific time, date and number of guests. I also tried to see if it's possible to submit a blank table.
 - Result: Once the tabe has been booked, it appears on the "Your Bookings" page. I saw the success message. You also cannot submit an empty form.
 ![image](assets/readme_assets/booking-table-test-one.png)
-![image](assets/readme_assets/booking-table-test-twi.png)
-![image](assets/readme_assets/blank-booking-manual-test.png)
+![image](aassets/readme_assets/blank-booking-manual-test.png)
 - Verdict: Sucess, the user will be able to book a table and are shown they have been booked by a success message.
 ***
 - Implementation: If for whatever reason the user needs to change the date, time, number of heads of allergy needs on a booking they have created, they should be able to do so.
