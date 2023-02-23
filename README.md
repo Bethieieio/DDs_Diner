@@ -105,7 +105,8 @@ Below are the links and names of the people who look the photos I used for my pr
 - Result: Once the tabe has been booked, it appears on the "Your Bookings" page. I saw the success message. You also cannot submit an empty form.
 ![image](assets/readme_assets/booking-table-test-one.png)
 ![image](assets/readme_assets/blank-booking-manual-test.png)
-- Verdict: Sucess, the user will be able to book a table and are shown they have been booked by a success message.
+![image](assets/readme_assets/book-table-success-page.png)
+- Verdict: Success, the user will be able to book a table and are shown they have been booked by a success message.
 ***
 - Implementation: If for whatever reason the user needs to change the date, time, number of heads of allergy needs on a booking they have created, they should be able to do so.
 - Test: On the "Your Bookings" page, I found the booking I previously created. I clicked on it and the edit button was shown. I clicked on this and I was able to edit the date from the 24th to the 26th February,
@@ -128,12 +129,27 @@ Below are the links and names of the people who look the photos I used for my pr
 !![image](assets/readme_assets/review-manual-test-two.png)
 ![image](assets/readme_assets/review-manual-test-three.png)
 ***
+- Implementation: Liking reviews is a great way to show that you agree with another users review.  If a user liked a review my mistake, clicking the like icon again, will remove the like. Only users that have an account can like reviews.
+- Test: While logged in, clicking on the heart shaped icon will change the colour of the heart to DD's Red. Whem not logged in, I will see how many people have liked the review, but unable to like the review myself.
+- Result: Logged in by clicking the heart, it changes colour, this means it liked, clicking the heart again removes the like. When not logged in, I cannot like review.
+![image](assets/readme_assets/like-reviews-manual-test-two.png)
+![image](assets/readme_assets/like-reviews-manual-test-one.png)
+- Verdict: This is all working as it should.  The right type of user are able to like the reviews.
+***
+
+- Implementation: The websites menu and users booking page accordions that use Bootstrap. As well as adding movement to the website, it also allows the user not to scroll to far down the page.
+- Test: I tested this by repeatedly clicking all the avaliable accordion buttons. Making sure they all expand and retract with no issues.
+- Result: All of the buttons worked, even spamming them they worked flawlessly. Each of them changed colour to the DD's yellow when they are expanded.
+- Verdict: It was a success, I did everything in my power to try and break them, but they did not. (:
+***
+
 - Implementation:
 - Test:
 - Result:
 - Verdict:
 ***
-- Implementation:
+
+- Implementation: The admin needs to remove reviews if they contain words that are not acceptable to be shown on the website. So giving them the ability to delete them needs to be implicated.
 - Test:
 - Result:
 - Verdict:
@@ -146,13 +162,10 @@ Below are the links and names of the people who look the photos I used for my pr
 
 
 
-- make sure user can create edit view delete booking x
-- make sure user can make review
-- make sure user can like / unlike reviews
-- make sure user can sign up / log in  / log out x
+- 
 - make sure admin can view reviews and bookings 
 - make sure admin can delete reviews and bookings
-- make sure manu accordions work and google map.
+- make sure menu accordions work and google map.
 ### HTML VALIDATION
 ### CSS VALIDATION
 ### PEP8 
@@ -247,9 +260,9 @@ The above helped me the most with this project when I needed guidence.
 - Cliked on 'Open App' to view the DD's Diner site. 
 - Now whenever I make a commit, it automatically deploys to Heroku.
 
-> Because my local and heroku use the same database, there is no need formigrations ehen deploying.
+> Because my local and heroku use the same database, there is no need for migrations when deploying.
 
-## Hourable Mentions
+## Honourable Mentions
 - [My Partner in crime](https://github.com/bashleigh) Kept me as sane is she possibly could, and answered all the questions I had as simply as possible.
 - My Mentor Rich, big ups to him. Thank you (:
 
