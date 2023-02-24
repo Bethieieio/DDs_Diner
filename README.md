@@ -21,7 +21,9 @@ I have two types of user. The first is an admin user that can manage and delete 
 Here are the user stories, I made them into GitHub issues and created a project so I can track them using Kanban.
 Please view this [HERE](https://github.com/users/Bethieieio/projects/2).
 
-## Feature Priority
+## Features
+bdjhfgsjlf
+### Feature Priority
 Here are the simplified user stories with their priority score. This is so I can prioritise time for the most important features.
 1 being the least important, while 5 being the most.
 
@@ -214,9 +216,7 @@ I had a couple of things that needed adjusting in my python code.
 5. After the code on this line, there was an extra space/tab that was not needed. I deleted this.
 6. Here I had one extra line between the code (3), so I removed one.
 
-installed pycodestyle which is a global command
-used pycodestyle to point out validation failure by running `pycodestyle --first */*.py`
-fixed each one manually and committed
+![image](assets/readme_assets/python-validation-code.png)
 
 ## Packages, Languages and Frameworks
 ### Django
