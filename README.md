@@ -1,5 +1,6 @@
 # DD's Diner
-This is a website about a fictional diner where you can book a table, view your bookings and also edit or delete them too. It is my forth project for Code Institute, it uses [Django](https://www.djangoproject.com/). It is for educational purposes only.
+"Welcome to DD's Diner! Wanna  feel for retro dining atmosphere? Listening to songs from the 'Good Ol' Days?' Yes? Then this is the diner for you! Dreamt of becoming greaser for a evening? Come along to our monthy 50's Night, a (summer) night filled with action. So come on down, have a milkshake and enjoy the dining experience..."
+This is a website about a fictional diner where you can have a look at the menu, create an account, book a table, view your bookings and also edit or delete them too. It is my forth project for Code Institute, it uses [Django](https://www.djangoproject.com/). It is for educational purposes only.
 You can view it [HERE](https://project-four-dds-diner.herokuapp.com/) on [Heroku](https://dashboard.heroku.com/), a cloud hosting provider.
 
 ![image](assets/readme_assets/am-i-responsive.png)
