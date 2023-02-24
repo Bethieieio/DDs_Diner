@@ -217,6 +217,7 @@ I had a couple of things that needed adjusting in my python code.
 6. Here I had one extra line between the code (3), so I removed one.
 
 ![image](assets/readme_assets/python-validation-code.png)
+![image](assets/readme_assets/python-validation-test2.png)
 
 ## Packages, Languages and Frameworks
 ### Django
