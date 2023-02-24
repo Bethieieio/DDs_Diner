@@ -198,8 +198,6 @@ Because of the accordion has more than one button, I copied each accordion butto
 ![image](assets/readme_assets/html-testing-menu.png)
 
 
-
-
 ### CSS VALIDATION
 ### PEP8 
 
