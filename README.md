@@ -3,7 +3,11 @@
 This is a website about a fictional diner where you can have a look at the menu, create an account, book a table, view your bookings and also edit or delete them too. It is my forth project for Code Institute, it uses [Django](https://www.djangoproject.com/). It is for educational purposes only.
 You can view it [HERE](https://project-four-dds-diner.herokuapp.com/) on [Heroku](https://dashboard.heroku.com/), a cloud hosting provider.
 
-![image](assets/readme_assets/am-i-responsive.png)
+![image](assets/readme_assets/dds-logo.png)
+![image](assets/readme_assets/full-screen-page.png)
+![image](assets/readme_assets/medium-sized screen.png)
+![image](assets/readme_assets/mobile-page.png)
+
 
 ## Target Audience
 - For all ages
