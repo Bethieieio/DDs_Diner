@@ -164,7 +164,6 @@ Below are the links and names of the people who look the photos I used for my pr
 ![image](assets/readme_assets/delete-review-admin.png)
 
 ### HTML VALIDATION
-I used [W3C](https://validator.w3.org/) to check my HTML. The following things are what it found:
 
 - Homepage / Base Page
 1. Firstly I forgot to add the langauge attribute to the head. I added this
@@ -201,6 +200,14 @@ Because of the accordion has more than one button, I copied each accordion butto
 My CSS passed threw with no errors.
 ![image](assets/css-validator.png)
 ### PEP8 
+I had a couple of things that needed adjusting in my python code.
+1. This line was too long, I had to divide this line of code to short lines of code.
+2. Here I had an indentation that wasnt needed, I just deleted this.
+3. This part needed 2 blank spaces here in between the class and the imports. I only had one.
+4. I had some comments that did not start with '#', I didnt need this any more, so I removed the comments.
+5. At the end of the admin.py page, there was an empty line with a tab. I deleted this.
+5. After the code on this line, there was an extra space/tab that was not needed. I deleted this.
+6. Here I had one extra line between the code (3), so I removed one.
 
 installed pycodestyle which is a global command
 used pycodestyle to point out validation failure by running `pycodestyle --first */*.py`
