@@ -183,7 +183,6 @@ I fixed all the small errors, the HTML on the base and homepage are now error fr
 
 - Review Page
 The review page have no errors in it's HTML.
-![image](assets/readme_assets/html-testing-menu.png)
 ![image](assets/readme_assets/review-html-test.png)
 
 - Book a Table and Your Bookings
@@ -199,6 +198,8 @@ Because of the accordion has more than one button, I copied each accordion butto
 
 
 ### CSS VALIDATION
+My CSS passed threw with no errors.
+![image](assets/css-validator.png)
 ### PEP8 
 
 installed pycodestyle which is a global command
