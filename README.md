@@ -247,8 +247,7 @@ I installed [Bootstrap](https://getbootstrap.com/) to utilise it's style classes
 ### Database Structure
 This is the plan for my database structure. I have one table per model and I have included relationships. I used [DrawSQL](https://drawsql.app/).
 
-<iframe width="100%" height="500px" style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); border-radius:15px;" allowtransparency="true" allowfullscreen="true" scrolling="no" title="Embedded DrawSQL IFrame" frameborder="0" src="https://drawsql.app/teams/penny-flight-pirates/diagrams/project-four/embed"></iframe>
-
+![image](assets/readme_assets/database-model.png
 #### User
 - This table will be created using [AllAuth](https://django-allauth.readthedocs.io/en/latest/). It will supply basic user account functionality.
 - The user will have to enter their email address, first and last names and a password to create an account.
