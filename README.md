@@ -16,7 +16,7 @@ You can view it [HERE](https://project-four-dds-diner.herokuapp.com/) on [Heroku
 - People who are into the 50's 60's era.
 - Someone who just like looking at restaurant menus and making themselves hungry.. (so guilty at going this).
 ## User Stories
-I have two types of user. The first is an admin user that can manage and delete booking, also delete reviews if they show inapporopriate langauge. The second type of user is the customers of DD's Diner. They can create, edit and delete their bookings, they can also write and like reviews.  The user can only do this, if they have created an account.
+I have two types of user. The first is an admin user that can manage and delete booking, also delete reviews if they show inapporopriate langauge. The second type of user is the customers of DD's Diner. They can create, edit and delete their bookings, they can also write and like reviews.  The user can only do this, if they have created an account. Both users will want to view the menu to see what food they are serving. They might also need to know an email or phone number to contact the restaurant. They might also need the address and / or view the location on a Google map. They may want to see what is new in the menu or any events thats might me happening in the near future.
 
 Here are the user stories, I made them into GitHub issues and created a project so I can track them using Kanban.
 Please view this [HERE](https://github.com/users/Bethieieio/projects/2).
