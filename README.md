@@ -198,7 +198,7 @@ Because of the accordion has more than one button, I copied each accordion butto
 
 ### CSS VALIDATION
 My CSS passed threw with no errors.
-![image](assets/css-validator.png)
+![image](assets/readme_assets/css-validator.png)
 ### PEP8 
 I had a couple of things that needed adjusting in my python code.
 1. This line was too long, I had to divide this line of code to short lines of code.
