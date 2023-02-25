@@ -56,7 +56,7 @@ I got inspiration from to use my chosen colours of red (#A82428), yellow (#FFBE3
 I chose black as it is bold and stands out from the other colours I have chosen. I chose an off white instead of a 'normal' white as I just wanted something different. I used the red mainly in the background border and navigation text. The off white as the main colour of text containers including the navigation bar background, the yellow as the main titles, accents on the off white containers, the hover colour on the nav, the main button colour and the colour the accordion title colour when they are clicked on. The black is used mostly for the main  text colour in the white containers.
 ### Typeography
 I used two font types for this webite.
-I used [Google Fonts]()
+I used [Google Fonts](https://fonts.google.com/)
 Pacifico  - for the the main titles and the logo. I felt that it was fancy and looked like a font that diners have. But I made sure it was wasy enough for people to read. 
 Anek Gujarati - for the main text on the website. I felt it did not over power the page. easy for everyone to read. It look sleek and simple enough not to clash with the title font.
 ### Media
@@ -305,6 +305,12 @@ The above helped me the most with this project when I needed guidence.
 - Now whenever I make a commit, it automatically deploys to Heroku.
 
 > Because my local and heroku use the same database, there is no need for migrations when deploying.
+
+## Future Features
+In the future I would like to add to the following project:
+- The ability for the users to preorder their when they book a table. This will help with faster waiting times for the user.
+- To make a more relistic booking process, having a limition on times. For example, the user will not be able to book a table at 3.00am when the restaurant is close. And only a certain number of bookings can be made on a certain time and day to avoid over booking.
+- I would like to add a contact form do that the customer will be able to contact the diner instead of popping in or calling up.
 
 ## Honourable Mentions
 - [My Partner in crime](https://github.com/bashleigh) Kept me as sane is she possibly could, and answered all the questions I had as simply as possible.
