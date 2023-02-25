@@ -157,10 +157,16 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
+AUTHENTICATION_BACKENDS = (
+    "django.contrib.auth.backends.ModelBackend",
+    "allauth.account.auth_backends.AuthenticationBackend"
+)
+
 # ALL AUTH configs
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_USERNAME_REQUIRED = False
 ACCOUNT_EMAIL_VERIFICATION = 'none'
+ACCOUNT_AUTHENTICATION_METHOD = 'email'
 ACCOUNT_ADAPTER = 'DDs_Diner.user-adapter.MyAccountAdapter'
 ACCOUNT_FORMS = {'signup': 'DDs_Diner.forms.ClientSignUpForm'}
 ACCOUNT_SIGNUP_REDIRECT_URL = '/'
