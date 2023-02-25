@@ -74,10 +74,36 @@ If the customer is not logged in, they are sent to the log in page as you can on
 This is the page where the users bookings are stored. The user can keep track, edit and delete them.
 The layout is an accordion style like the menu, when each date is clicked it expands to give the details of that booking. Inside of each booking are two buttons:
 Edit - Where the users can change the data, time, guest no and allergie boolean again and this will get updated when resubmitted (to the database too);.
-Delete - if the customer changes their mind, they can delete the booking and it is delete from the database as well. Their booking will be cancelled.
+Delete - if the customer changes their mind, they can delete the booking and it is delete from the database as well. Their booking will be cancelled. 
+Users who are not logged in do not see this page.
 ![image](assets/readme_assets/your-booking1.png)
 ![image](assets/readme_assets/your-booking2.png)
 
+### Log In
+This is the page where the user logs into their account.
+They need to enter their email and their password, it uses crispy forms.
+Users that are not signed in get directed here if they try to book a table.
+![image](assets/readme_assets/log-in-form.png)
+
+### Log Out 
+When the user would like to log out of their account, they click on the 'Log Out' on the furthest right link on the navigation bar. The user is then asked a question if the are sure they are wanting to log out just in case they click on the button by accident. If they want to sign out, then they click on the 'Signing Off' sumbit button where this signs them out of their account.
+![image](assets/readme_assets/log-out.png)
+
+### Message Pop-Ups
+I chose to have pop ups as it lets the user know there request has been submitted.
+It disappears after a couple of seconds.
+- Signing in
+![image](assets/readme_assets/pop-up-message2.png)
+- Signing out
+![image](assets/readme_assets/pop-up-message1.png)
+- Create booking
+![image](assets/readme_assets/pop-up-message4.png)
+- Edit booking
+![image](assets/readme_assets/pop-up-message6.png)
+- Delete booking
+![image](assets/readme_assets/pop-up-message6.png)
+- Submitted review
+![image](assets/readme_assets/pop-up-message3.png)
 
 ### Feature Priority
 Here are the simplified user stories with their priority score. This is so I can prioritise time for the most important features.
@@ -365,7 +391,7 @@ The above helped me the most with this project when I needed guidence.
 ## Future Features
 In the future I would like to add to the following project:
 - The ability for the users to preorder their when they book a table. This will help with faster waiting times for the user.
-- To make a more relistic booking process, having a limition on times. For example, the user will not be able to book a table at 3.00am when the restaurant is close. And only a certain number of bookings can be made on a certain time and day to avoid over booking.
+- To make a more relistic booking process, having a limition on times. For example, the user will not be able to book a table at 3.00am when the restaurant is close, or a time too far into the future or anytime in the past. Only a certain number of bookings can be made on a certain time and day to avoid over booking.
 - I would like to add a contact form do that the customer will be able to contact the diner instead of popping in or calling up.
 
 ## Honourable Mentions
