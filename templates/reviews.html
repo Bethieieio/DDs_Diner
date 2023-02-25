@@ -28,28 +28,28 @@
             </div>
             <div class="p-2">
                 {% if user.is_authenticated %}
-                    <form
-                    class="d-inline"
-                    action="{% url 'review_like' review.id %}"
-                    method="POST"
-                    >
-                    {% csrf_token %}
-                    {% if review.id in userLikes %}
-                        <button
-                            type="submit"
-                            class="btn-like"
-                        >
-                            <i class="fas fa-heart"></i>
-                        </button>
-                    {% else %}
-                        <button
-                            type="submit"
-                            class="btn-like"
-                        >
-                            <i class="far fa-heart"></i>
-                        </button>
-                    {% endif %}
-                    </form>
+                <form
+                class="d-inline"
+                action="{% url 'review_like' review.id %}"
+                method="POST"
+                >
+                {% csrf_token %}
+                {% if review.id in userLikes %}
+                <button
+                    type="submit"
+                    class="btn-like"
+                >
+                    <i class="fas fa-heart"></i>
+                </button>
+                {% else %}
+                <button
+                    type="submit"
+                    class="btn-like"
+                >
+                    <i class="far fa-heart"></i>
+                </button>
+                {% endif %}
+                </form>
                 {% else %}
                 <span class="text-secondary"><i class="far fa-heart"></i></span>
                 {% endif %}

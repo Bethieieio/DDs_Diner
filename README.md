@@ -59,6 +59,13 @@ The menu page contains an accordion that has four sections. Main meal, sides, dr
 ![image](assets/readme_assets/menu1.png)
 ![image](assets/readme_assets/menu2.png)
 
+### Reviews
+The review page is a place where customers can read reviews from other customers. If they have an account they can also post there own reviews. Each review has there own white container with the yellow border and shadow to match the site. If the signed in user clicks the button that says "write a review" it scrolls down to the text area and start writing their review. I did this so it saves the customer from scrolling. If the user is not signed in there is no text area and the botton is replaced with a 'log In' button where it takes them to the sign in page.
+![image](assets/readme_assets/review1.png)
+![image](assets/readme_assets/review2.png)
+![image](assets/readme_assets/review3.png)
+![image](assets/readme_assets/review4.png)
+
 ### Feature Priority
 Here are the simplified user stories with their priority score. This is so I can prioritise time for the most important features.
 1 being the least important, while 5 being the most.
