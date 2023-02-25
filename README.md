@@ -70,6 +70,15 @@ This page when the user is logged in is a form to book a table at the diner. The
 If the customer is not logged in, they are sent to the log in page as you can only book a table if you have an account.
 ![image](assets/readme_assets/book-a-table.png)
 
+### Your Bookings
+This is the page where the users bookings are stored. The user can keep track, edit and delete them.
+The layout is an accordion style like the menu, when each date is clicked it expands to give the details of that booking. Inside of each booking are two buttons:
+Edit - Where the users can change the data, time, guest no and allergie boolean again and this will get updated when resubmitted (to the database too);.
+Delete - if the customer changes their mind, they can delete the booking and it is delete from the database as well. Their booking will be cancelled.
+![image](assets/readme_assets/your-booking1.png)
+![image](assets/readme_assets/your-booking2.png)
+
+
 ### Feature Priority
 Here are the simplified user stories with their priority score. This is so I can prioritise time for the most important features.
 1 being the least important, while 5 being the most.
