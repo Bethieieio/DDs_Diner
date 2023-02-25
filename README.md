@@ -64,7 +64,11 @@ The review page is a place where customers can read reviews from other customers
 ![image](assets/readme_assets/review1.png)
 ![image](assets/readme_assets/review2.png)
 ![image](assets/readme_assets/review3.png)
-![image](assets/readme_assets/review4.png)
+
+### Book a Table
+This page when the user is logged in is a form to book a table at the diner. The form is the sites standard white container, yellow border combo. The form asks for the time and date of visit, the number of people going and if any of the guests have any allergies. All of this informaton is then sent to the database and the booking information is also sent to the users 'Your Bookings' page.
+If the customer is not logged in, they are sent to the log in page as you can only book a table if you have an account.
+![image](assets/readme_assets/book-a-table.png)
 
 ### Feature Priority
 Here are the simplified user stories with their priority score. This is so I can prioritise time for the most important features.
