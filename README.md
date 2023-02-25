@@ -18,11 +18,45 @@ You can view it [HERE](https://project-four-dds-diner.herokuapp.com/) on [Heroku
 ## User Stories
 I have two types of user. The first is an admin user that can manage and delete booking, also delete reviews if they show inapporopriate langauge. The second type of user is the customers of DD's Diner. They can create, edit and delete their bookings, they can also write and like reviews.  The user can only do this, if they have created an account. Both users will want to view the menu to see what food they are serving. They might also need to know an email or phone number to contact the restaurant. They might also need the address and / or view the location on a Google map. They may want to see what is new in the menu or any events thats might me happening in the near future.
 
+
 Here are the user stories, I made them into GitHub issues and created a project so I can track them using Kanban.
 Please view this [HERE](https://github.com/users/Bethieieio/projects/2).
 
 ## Features
-bdjhfgsjlf
+
+### Base
+#### Logo
+The logo was originally just a black line clipart image. The diners colours was added for it to fit in with the website design. I chose the planet design as when I saw the design on the clipart website, it reminded me of 'Pizza Planet', a fictional pizza place on Disney's Toy Story. Its is on the same white background as the navigation bar and ehrn clicked, it takes the user to the homepage. 
+![image](static/css/images/dds_logo.png)
+
+#### Navigation Bar
+The navigation bar is located on the top of the page. When the user scrolls down the page, it is fixed to the top of the screen for user convenience. It has the off white background so it stands out from the rest of the website. I used the red for the links with the 'Pacifico' font. In between each link I separated them with a vertical line made using the yellow border-right line. When the user hovers over the red text, it turns yellow this is so the user knows its is a working navigation. Some of the navigation links change when the user is logged. As you can see in the pictures below, if the user is not sign in, it gives them the option to sign in and sign up. If the user is sign in, it gives them the option to sign out.
+![image](assets/readme_assets/nav-signed-in.png)
+![image](assets/readme_assets/nav-signed-out.png)
+
+#### Footer
+At the bottom of the page is the webites footer, it has the red background with white text and the links when hovered over are yellow. On the left hand side is the company email and phone number. These are both links so clicking on them start an email process and calls the diner respectively. On the right is the company address. In the middle the wonderful creator of this side and who she is creating it for. The Font Awesome image is an alternative GitHub logo, it is a link and takes the user to her GitHb profile. (:
+![image](assets/readme_assets/project 4/footer.png)
+### Home Page
+#### Hero Image
+The hero image a picture of inside of the diner. It is located underneath the nav on the homepage and covers half the page. It is eye-catching and bold and it gives the customer a sense of what it is like inside.
+Half on the hero image is a yellow button with 'Pacifico' which is the main design of button on this site. When signed out, it is a sign up button that takes the user to the sign up section further down the page. When signed in, it goes to the 'Book a Table' page. Depending on what the customers name is, it also days their name. EG: 'Book a Table, Beth'.
+![image](assets/readme_assets/hero-sign-in.png)
+![image](assets/readme_assets/hero-sign-out.png)
+
+#### Diner Offers
+Directly under the hero image are three images with a yellow borders and a shadow. These are current offers that the diner currenly has. The are short straight to the point adverts. Containing an event and two new menu item items. They are all bright and eye catching.
+![image](assets/readme_assets/diner-offers.png)
+
+#### Google Map
+Below the diners current offers is the iframe of Google Map showing the location of the diner. The user can interact, with the map, zoom in and out, switch it to satellite view and see it's Google reviews.
+![image](assets/readme_assets/diner-map.png)
+
+#### Sign Up (Homepage)
+Other than the separate sign up page, there is a sign up section on the homepage. It is laid out in the classic DD's style white background, red title in 'Pacifico' and has the yellow submit button. The simple yet effective design makes it easy to read and not an overpowering sight. This form can only be seen when the user is not signed in.
+![image](assets/readme_assets/sign-up.png)
+
+
 ### Feature Priority
 Here are the simplified user stories with their priority score. This is so I can prioritise time for the most important features.
 1 being the least important, while 5 being the most.
@@ -313,7 +347,7 @@ In the future I would like to add to the following project:
 - I would like to add a contact form do that the customer will be able to contact the diner instead of popping in or calling up.
 
 ## Honourable Mentions
-- [My Partner in crime](https://github.com/bashleigh) Kept me as sane is she possibly could, and answered all the questions I had as simply as possible.
+- [My Partner in crime](https://github.com/bashleigh) Kept me as sane is she possibly could, and answered all the questions I had as simply as possible. She also edited the colours in the logo.
 - My Mentor Rich, big ups to him. Thank you (:
 
 
