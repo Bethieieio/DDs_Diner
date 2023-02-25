@@ -52,7 +52,7 @@ Here are the wireframes I created before starting this project. As you can see c
 ![image](assets/readme_assets/wireframe-login.png)
 
 ### Colour Schemes
-I got inspiration from to use my chosen colours of red, yellow, off white from [Coolors](https://coolors.co/ebebeb-a82428-ffbe33-000000) (press link to see colours). Red and yellow stand out from eachother. They also represent colours from diners and two very famous fast food restuarants...
+I got inspiration from to use my chosen colours of red (#A82428), yellow (#FFBE33) and off white (#EBEBEB) from [Coolors](https://coolors.co/ebebeb-a82428-ffbe33-000000) (press link to see colours). Red and yellow stand out from eachother. They also represent colours from diners and two very famous fast food restuarants...
 I chose black as it is bold and stands out from the other colours I have chosen. I chose an off white instead of a 'normal' white as I just wanted something different. I used the red mainly in the background border and navigation text. The off white as the main colour of text containers including the navigation bar background, the yellow as the main titles, accents on the off white containers, the hover colour on the nav, the main button colour and the colour the accordion title colour when they are clicked on. The black is used mostly for the main  text colour in the white containers.
 ### Typeography
 I used two font types for this webite.
