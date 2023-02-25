@@ -37,25 +37,27 @@ The navigation bar is located on the top of the page. When the user scrolls down
 #### Footer
 At the bottom of the page is the webites footer, it has the red background with white text and the links when hovered over are yellow. On the left hand side is the company email and phone number. These are both links so clicking on them start an email process and calls the diner respectively. On the right is the company address. In the middle the wonderful creator of this side and who she is creating it for. The Font Awesome image is an alternative GitHub logo, it is a link and takes the user to her GitHb profile. (:
 ![image](assets/readme_assets/project 4/footer.png)
+
 ### Home Page
 #### Hero Image
 The hero image a picture of inside of the diner. It is located underneath the nav on the homepage and covers half the page. It is eye-catching and bold and it gives the customer a sense of what it is like inside.
 Half on the hero image is a yellow button with 'Pacifico' which is the main design of button on this site. When signed out, it is a sign up button that takes the user to the sign up section further down the page. When signed in, it goes to the 'Book a Table' page. Depending on what the customers name is, it also days their name. EG: 'Book a Table, Beth'.
 ![image](assets/readme_assets/hero-sign-in.png)
 ![image](assets/readme_assets/hero-sign-out.png)
-
 #### Diner Offers
 Directly under the hero image are three images with a yellow borders and a shadow. These are current offers that the diner currenly has. The are short straight to the point adverts. Containing an event and two new menu item items. They are all bright and eye catching.
 ![image](assets/readme_assets/diner-offers.png)
 
-#### Google Map
 Below the diners current offers is the iframe of Google Map showing the location of the diner. The user can interact, with the map, zoom in and out, switch it to satellite view and see it's Google reviews.
 ![image](assets/readme_assets/diner-map.png)
-
 #### Sign Up (Homepage)
 Other than the separate sign up page, there is a sign up section on the homepage. It is laid out in the classic DD's style white background, red title in 'Pacifico' and has the yellow submit button. The simple yet effective design makes it easy to read and not an overpowering sight. This form can only be seen when the user is not signed in.
 ![image](assets/readme_assets/sign-up.png)
 
+### Menu Page
+The menu page contains an accordion that has four sections. Main meal, sides, drinks and desserts. When the section titles are clicked, the accordion expands showing its contents. Note that when the section of the accordion is open, the background goes yellow and the text goes red, until it closes, it wil go back to its orginal colours. I close to use an accordion as it stops the user from having to scroll to much going up down the menu / page. I also feel it looks tider.
+![image](assets/readme_assets/menu1.png)
+![image](assets/readme_assets/menu2.png)
 
 ### Feature Priority
 Here are the simplified user stories with their priority score. This is so I can prioritise time for the most important features.
