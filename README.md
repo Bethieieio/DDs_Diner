@@ -301,6 +301,15 @@ I had a couple of things that needed adjusting in my python code.
 ![image](assets/readme_assets/python-validation-code.png)
 ![image](assets/readme_assets/python-validation-test2.png)
 
+### Lighthouse Testing
+Here are all the results of the Lighthouse Testing 
+![image](assets/readme_assets/lighthouse-home.png)
+![image](assets/readme_assets/lighthouse-menu.png)
+![image](assets/readme_assets/lighthouse-review.png)
+![image](assets/readme_assets/lighthouse-book-table.png)
+![image](assets/readme_assets/lighthouse-my-bookings.png)
+
+
 ## Packages, Languages and Frameworks
 ### Django
 Django is an MVC (Model View Controller) framework. I have used Django as a backend service to provide endpoints, which render HTML using templates and handle POST form data. Django also handles user authentication tokens and sessions.
