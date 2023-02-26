@@ -9,7 +9,7 @@
         {% for booking in bookings %}
         <div class="accordion-item">
             <div class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ booking.id }}" aria-expanded="true" aria-controls="collapseOne" aria-label="{{ booking.date }}">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ booking.id }}" aria-expanded="true" aria-controls="collapseOne" aria-label="{{ booking.date }}" aria-hidden="true">
                     {{ booking.date }}
                 </button>
             </div>
