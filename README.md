@@ -384,7 +384,46 @@ The above helped me the most with this project when I needed guidence.
 - [Balsamiq](https://balsamiq.com/) created by wireframes
 - [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) - self explanatory. 
 
-## Deployment to Heroku 
+
+## Deployment 
+### Setting up Django
+
+- Create a new repository
+I created a [repository](https://docs.github.com/en/get-started/quickstart/create-a-repo) on github and cloned it to my local machine.
+- Install Django
+Using pip3, I installed the latest version of Django and initial packages I knew I needed:
+ `pip3 install django gunicorn dj_database_url psycopg2`
+- Run pip freeze and save to reqirements.txt file.
+I used the following command `pip3 freeze --local > requirements.txt` to save the versions I have installed so they can be installed when deploying to Heroku.   
+- Create new Django project
+I used the command `django-admin startproject DDs_Diner`.
+- Create new Django app 
+Next I used the command `python3 manage.py startapp restaurant`.
+- Run migrate and run server
+I ran an inital migration my running `python3 manage.py migrate`. Then I started the server making sure it worked locally, by using the command `python3 manage.py runserver` and checking the port.
+
+### Additional Set Up
+- Create my local ENV file.
+I created a `env.py` file - this is where I intend to store my secret keys.
+- Gitignore File
+I added the `env.py` to the `.gitignore` file, this is so that the file is not added to Git and does not end up on the internet.
+- Create Inital ENV values
+Create a `DATABASE_URL` line in the `env.py` file and add the value of the [ElephantSQL](https://www.elephantsql.com/) database URL that I created earlier.
+- Created a secret key in the `env.py` file and assign it a randomly generated string.
+- In my `settings.py` file I added some import statements to import my ENV values from my `env.py` file.
+- Next in my `settings.py` file I replaced the secret key variable assignment with my ENV value for the secret key and updated the database settings to use my ENV value from my ENV file.
+- Later on in this project's development, I installed White Noise for static file hosting on Heroku. I needed to configure Django for White Noise by updating the `STATICFILES_DIRS` to be a relative path to my static directory and `STATIC_ROUTE` to be a relative path to the `staticfiles` directory.
+
+### Installed Apps
+Throughout this project, I installed various Django packages that required values to be added to the `INSTALLED_APPS` variable in `settings.py` file. 
+Some example are: 
+- White Noise 
+- All Auth
+- My Restaurant App
+- Crispy Forms
+This involved adding app names to the List as mentioned in the relevent documentation.
+
+### Deployment to Heroku 
 - I commit and pushed all my work to Github
 - Signed in and clicked on "New" and "New App".
 - I named the deployment, and chose "Europe" region.
@@ -401,7 +440,7 @@ The above helped me the most with this project when I needed guidence.
 In the future I would like to add to the following project:
 - The ability for the users to preorder their when they book a table. This will help with faster waiting times for the user.
 - To make a more relistic booking process, having a limition on times. For example, the user will not be able to book a table at 3.00am when the restaurant is close, or a time too far into the future or anytime in the past. Only a certain number of bookings can be made on a certain time and day to avoid over booking.
-- I would like to add a contact form do that the customer will be able to contact the diner instead of popping in or calling up.
+- I would like to add a contact form so that the customer will be able to contact the diner instead of popping in or calling up.
 
 ## Honourable Mentions
 - [My Partner in crime](https://github.com/bashleigh) Kept me as sane is she possibly could, and answered all the questions I had as simply as possible. She also edited the colours in the logo.
