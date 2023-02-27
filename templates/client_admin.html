@@ -13,7 +13,7 @@
                     {{ booking.date }}
                 </button>
             </div>
-            <div class="accordion-collapse collapse booking-details" id="collapse-{{ booking.id }} ">
+            <div class="accordion-collapse collapse booking-details" id="collapse-{{ booking.id }}">
                 <div class="accordion-body">
                     <div>
                         <label class="label">Time:</label>
@@ -41,6 +41,10 @@
                 </div>
             </div>
         </div>
+        {% empty %}
+        <h3>
+            You have no bookings with us!
+        </h3>
         {% endfor %}
     </div>
 </div>
