@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['project-four-dds-diner.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['dds-diner-b61e8075470c.herokuapp.com', 'localhost']
 
 
 # Application definition
